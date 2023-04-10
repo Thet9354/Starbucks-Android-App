@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Starbucks</string>
+
+    <string name="facebook_app_id">755740902615806</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">8d86d868e4bcc1a1ae261a9caefc6b34</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="recentTransaction_orderName">
+        <item name="order1">Cheesecake Milkshake Frappucino Cream Starbucks</item>
+        <item name="order2">Coffee Latte Macchiato Pumpkin Spice Starbucks</item>
+        <item name="order3">Caramel Macchiato</item>
+        <item name="order4">Matcha Green Tea Latte</item>
+        <item name="order5">Pink Drink</item>
+        <item name="order6">Iced White Chocolate Mocha</item>
+        <item name="order7">Nitro Cold Brew with Sweet Cream</item>
+    </string-array>
+
+    <string-array name="recentTransaction_orderDate">
+        <item name="date1">Today, 17:45 PM</item>
+        <item name="date2">Oct 14th 2021</item>
+        <item name="date3">Dec 31st 2022</item>
+        <item name="date4">Apr 18th 2024</item>
+        <item name="date5">Jul 7th 2023</item>
+        <item name="date6">Nov 23rd 2023</item>
+        <item name="date7">Feb 14th 2024</item>
+    </string-array>
+
+    <string-array name="recentTransaction_orderPrice">
+        <item name="price1">-$19.65</item>
+        <item name="price2">-$18.75</item>
+        <item name="price3">-$8.37</item>
+        <item name="price4">-$13.99</item>
+        <item name="price5">-$27.50</item>
+        <item name="price6">-$4.83</item>
+        <item name="price7">-$16.75</item>
+    </string-array>
+
+    <string-array name="today_type">
+        <item name="type1">Payment</item>
+        <item name="type2">Reward</item>
+        <item name="type3">Payment</item>
+        <item name="type4">Reward</item>
+        <item name="type5">Payment</item>
+    </string-array>
+
+    <string-array name="today_date">
+        <item name="date1">10.28.2021</item>
+        <item name="date2">9.28.2021</item>
+        <item name="date3">8.27.2021</item>
+        <item name="date4">7.26.2021</item>
+        <item name="date5">6.26.2021</item>
+    </string-array>
+
+    <string-array name="today_cost">
+        <item name="cost1">-$19.65</item>
+        <item name="cost2">-$00.00</item>
+        <item name="cost3">-$11.35</item>
+        <item name="cost4">-$00.00</item>
+        <item name="cost5">-$4.50</item>
+    </string-array>
+
+    <string-array name="today_reward">
+        <item name="reward1">+5 ⭐️</item>
+        <item name="reward2">-12 ⭐</item>
+        <item name="reward1">+10 ⭐️</item>
+        <item name="reward2">-15 ⭐</item>
+        <item name="reward1">+15 ⭐️</item>
+    </string-array>
+
+    <string-array name="yestd_type">
+        <item name="type1">Payment</item>
+        <item name="type2">Payment</item>
+    </string-array>
+
+    <string-array name="yestd_date">
+        <item name="date1">04.09.2023</item>
+        <item name="date2">04.09.2023</item>
+    </string-array>
+
+    <string-array name="yestd_cost">
+        <item name="cost1">-$19.65</item>
+        <item name="cost2">-$4.50</item>
+
+    </string-array>
+
+    <string-array name="yestd_reward">
+        <item name="reward1">+5 ⭐️</item>
+        <item name="reward2">+12 ⭐</item>
+    </string-array>
+
+    <string-array name="prev7Days_type">
+        <item name="type1">Payment</item>
+        <item name="type2">Reward</item>
+        <item name="type3">Payment</item>
+        <item name="type4">Reward</item>
+        <item name="type5">Payment</item>
+    </string-array>
+
+    <string-array name="prev7Days_date">
+        <item name="date1">10.28.2021</item>
+        <item name="date2">9.28.2021</item>
+        <item name="date3">8.27.2021</item>
+        <item name="date4">7.26.2021</item>
+        <item name="date5">6.26.2021</item>
+    </string-array>
+
+    <string-array name="prev7Days_cost">
+        <item name="cost1">-$19.65</item>
+        <item name="cost2">-$00.00</item>
+        <item name="cost3">-$11.35</item>
+        <item name="cost4">-$00.00</item>
+        <item name="cost5">-$4.50</item>
+    </string-array>
+
+    <string-array name="prev7Days_reward">
+        <item name="reward1">+5 ⭐️</item>
+        <item name="reward2">-12 ⭐</item>
+        <item name="reward1">+10 ⭐️</item>
+        <item name="reward2">-15 ⭐</item>
+        <item name="reward1">+15 ⭐️</item>
+    </string-array>
+</resources>
+

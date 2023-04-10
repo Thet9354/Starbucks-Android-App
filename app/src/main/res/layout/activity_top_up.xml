@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Wallet.TopUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="69dp"
+            android:src="@drawable/starbucks_logo"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Up"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="137dp"
+        android:background="@drawable/balancecard_bg"
+        android:elevation="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtView_balanceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 28, 2021"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="10sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/txtView_balanceAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$256,204"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SGD"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="12sp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/green_up"/>
+
+                <TextView
+                    android:id="@+id/txtView_percentUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.32%"
+                    android:textSize="10sp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="12sp"
+                    android:layout_height="12sp"
+                    android:src="@drawable/red_down"/>
+
+                <TextView
+                    android:id="@+id/txtView_percentDown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.58%"
+                    android:textSize="10sp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment method"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgView_masterCard"
+            android:layout_width="137dp"
+            android:layout_height="90dp"
+            android:src="@drawable/mastercard"/>
+
+        <ImageView
+            android:id="@+id/imgView_amex"
+            android:layout_width="137dp"
+            android:layout_height="90dp"
+            android:src="@drawable/amex"/>
+
+        <ImageView
+            android:id="@+id/imgView_applePay"
+            android:layout_width="137dp"
+            android:layout_height="90dp"
+            android:src="@drawable/applepay"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtView_topUp200"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="$200"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="@drawable/top_up_bg"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtView_topUp100"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="$100"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/top_up_bg"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtView_topUp50"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="$50"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="@drawable/top_up_bg"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtView_topUp20"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="$20"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="@drawable/top_up_bg"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTxt_customValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter specific value"
+        android:textColorHint="#D3D3D3"
+        android:textSize="12sp"
+        android:digits="12345678910"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_topUp"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:text="Top Up"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_ic"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_wallet"
+        android:icon="@drawable/wallet_ic"
+        android:title="Wallet"/>
+
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@drawable/order_ic"
+        android:title="Order" />
+
+    <item
+        android:id="@+id/nav_membership"
+        android:icon="@drawable/membership_ic"
+        android:title="Membership" />
+
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/location_ic"
+        android:title="Location" />
+
+
+</menu>

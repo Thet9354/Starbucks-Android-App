@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Onboarding.PersonalDecloration_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/back_btn"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:textColor="@color/green"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="#8A8B7A"
+                        android:text="HI  👋"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome to"
+                            android:textSize="21sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Starbucks"
+                            android:textSize="21sp"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="69dp"
+                    android:src="@drawable/starbucks_logo"
+                    android:layout_marginLeft="60dp"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_birthday"
+                android:layout_width="137dp"
+                android:layout_height="29dp"
+                android:text="Birthday"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We would never want to miss such a special \nday. Your birthday cannot be changed after \nsubmission."
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/editTxt_date"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:digits="0123456789"
+                    android:maxLength="2"
+                    android:hint="Date"/>
+
+                <EditText
+                    android:id="@+id/editTxt_month"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:hint="Month"
+                    android:digits="0123456789"
+                    android:maxLength="2"
+                    android:layout_marginStart="20dp"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_contactAddress"
+                android:layout_width="177dp"
+                android:layout_height="29dp"
+                android:text="Contact Address"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Address"/>
+
+            <EditText
+                android:id="@+id/editTxt_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="City"/>
+
+            <EditText
+                android:id="@+id/editTxt_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="District"/>
+
+            <EditText
+                android:id="@+id/editTxt_ward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Ward"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_countryCode"
+                    android:layout_width="51dp"
+                    android:layout_height="29dp"
+                    android:text="+65"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_mobile"
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:hint="Mobile Number"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email preference &amp; terms"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/rb_termsAndCondition"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:button="@null"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/custom_radio_button"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="I do not wish to receive news, special offers \nand more form Starbucks"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By clicking this button, I agree to the \nStarbucks Site"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtView_termsOfUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Use"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:layout_marginStart="30dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_joinNow"
+                android:layout_width="102dp"
+                android:layout_height="35dp"
+                android:text="Join now"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Onboarding.Registration_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/back_btn"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:textColor="@color/green"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="#8A8B7A"
+                        android:text="HI  👋"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome to"
+                            android:textSize="21sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Starbucks"
+                            android:textSize="21sp"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="69dp"
+                    android:src="@drawable/starbucks_logo"
+                    android:layout_marginLeft="60dp"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_loginDetails"
+                android:layout_width="137dp"
+                android:layout_height="29dp"
+                android:text="Login Details"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:hint="Email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This will be your username"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:hint="Password"/>
+
+            <EditText
+                android:id="@+id/editTxt_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Confirm Password"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_registerCard"
+                android:layout_width="265dp"
+                android:layout_height="29dp"
+                android:text="Register your Starbucks Card"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:digits="0123456789"
+                android:layout_marginTop="20dp"
+                android:hint="Card Number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No spaces or dashes"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_securityCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Security Code"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scratch off the hidden portion at the back of \nyour card"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_personalDetails"
+                android:layout_width="125dp"
+                android:layout_height="29dp"
+                android:text="Personal Details"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_salutation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Salutation"/>
+
+            <EditText
+                android:id="@+id/editTxt_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="First Name"/>
+
+            <EditText
+                android:id="@+id/editTxt_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="Last Name"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
