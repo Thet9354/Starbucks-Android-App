@@ -14,7 +14,13 @@
         android:theme="@style/Theme.Starbucks"
         tools:targetApi="31">
         <activity
-            android:name=".TopUpActivity"
+            android:name=".Order.Payment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Order.Siren_Order_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet.TopUpActivity"
             android:exported="false" />
         <activity
             android:name=".Wallet.PortfolioActivity"

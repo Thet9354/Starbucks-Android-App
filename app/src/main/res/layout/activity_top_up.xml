@@ -245,7 +245,7 @@
         android:layout_marginEnd="25dp"
         android:hint="Enter specific value"
         android:textColorHint="#D3D3D3"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:digits="12345678910"
         android:layout_marginTop="50dp"/>
 

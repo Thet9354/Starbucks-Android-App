@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order.Payment_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00623B"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:src="@drawable/starbucks_white_logo"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/arrow_back"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgView_filter"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/filter_white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"/>
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/payment_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="#ffffff"
+            android:background="#00623B"
+            app:tabBackground="@drawable/tab_background_selector"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabTextAppearance="@style/paymentTabAppearance"
+            app:tabMode="fixed"
+            android:layout_marginBottom="-10dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="DELIVERY"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TAKE AWAY"/>
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/payment_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -127,7 +127,7 @@ public class TopUpActivity extends AppCompatActivity {
             return false;
         }
         else
-            return true
+            return true;
     }
 
     private boolean validatePaymentType() {
