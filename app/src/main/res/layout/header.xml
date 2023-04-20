@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_close_white"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgView_accName"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pfp_icon"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtView_accName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frederick"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:id="@+id/txtView_accEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="frederickTP@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

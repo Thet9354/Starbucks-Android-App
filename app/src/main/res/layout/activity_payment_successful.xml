@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_container"
+    tools:context=".Order.PaymentSuccessful_Activity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="69dp"
+        android:src="@drawable/starbucks_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Successful"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="300dp"
+        android:src="@drawable/paymentsuccessful"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:textAllCaps="true"
+        android:textColor="#00623B"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You get "
+            android:textSize="20sp"
+            android:textColor="#DA761A"/>
+
+        <TextView
+            android:id="@+id/txtView_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 stars"
+            android:textColor="#DA761A"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" reward"
+            android:textSize="20sp"
+            android:textColor="#DA761A"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:text="Your order was delivered successfully. For more detials, check History under Portfolio Tab"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_history"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_home"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/green"
+        android:background="@drawable/transparent_button_bg"/>
+
+
+</LinearLayout>

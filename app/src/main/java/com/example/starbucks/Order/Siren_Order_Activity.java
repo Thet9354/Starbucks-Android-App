@@ -182,17 +182,22 @@ public class Siren_Order_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                orderQuantity = Integer.parseInt(txtView_orderQuantity.getText().toString());
+                totalCost = txtView_orderCost.getText().toString();
+
                 Intent paymentIntent = new Intent(getApplicationContext(), Payment_Activity.class);
-                intent.putExtra("Order Name", orderName);
-                intent.putExtra("Order Quantity", orderQuantity);
-                intent.putExtra("Order Cost", totalCost);
-                intent.putExtra("Order Pic", orderPic);
-                intent.putExtra("Order Temp", orderTemp);
-                intent.putExtra("Order Size", orderSize);
+                paymentIntent.putExtra("Order Name", orderName);
+                paymentIntent.putExtra("Order Quantity", orderQuantity);
+                paymentIntent.putExtra("Order Cost", totalCost);
+                paymentIntent.putExtra("Order Pic", orderPic);
+                paymentIntent.putExtra("Order Temp", orderTemp);
+                paymentIntent.putExtra("Order Size", orderSize);
 
                 startActivity(paymentIntent);
             }
         });
+
+
     }
 
     private void decreaseCounter(View v) {

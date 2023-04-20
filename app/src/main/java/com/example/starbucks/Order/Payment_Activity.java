@@ -2,8 +2,11 @@ package com.example.starbucks.Order;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -18,20 +21,41 @@ public class Payment_Activity extends AppCompatActivity {
     private ImageView btn_back, imgView_filter;
     private com.google.android.material.tabs.TabLayout payment_tabLayout;
     private androidx.viewpager2.widget.ViewPager2 payment_viewPager;
-
     PaymentViewPagerAdapter paymentViewPagerAdapter;
 
+    Intent intent;
+
+    //Variable to store intent and activity values
+    private String orderName, totalCost, orderTemp, orderSize;
+    private int orderPic, orderQuantity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
+        intent = getIntent();
 
         initWidget();
+
+        getIntentTransferredData();
 
         initUI();
 
         pageDirectories();
+    }
+
+    private void getIntentTransferredData() {
+
+        orderName = intent.getStringExtra("Order Name");
+        orderQuantity = intent.getIntExtra("Order Quantity", 0);
+        totalCost = intent.getStringExtra("Order Cost");
+        orderPic = intent.getIntExtra("Order Pic", 0);
+        orderTemp = intent.getStringExtra("Order Temp");
+        orderSize = intent.getStringExtra("Order Size");
+
+        System.out.println(orderName);
+        System.out.println(orderQuantity);
+
     }
 
     private void pageDirectories() {
@@ -72,6 +96,13 @@ public class Payment_Activity extends AppCompatActivity {
         payment_tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
+                int position = tab.getPosition();
+
+                Bundle bundle = new Bundle();
+                bundle.putString("key", orderName);
+                Delivery fragmentOne = new Delivery();
+                fragmentOne.setArguments(bundle);
+
                 payment_viewPager.setCurrentItem(tab.getPosition());
             }
 
@@ -82,7 +113,18 @@ public class Payment_Activity extends AppCompatActivity {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
+                Bundle bundle = new Bundle();
+                bundle.putString("key", orderName);
+                Delivery fragmentOne = new Delivery();
+                fragmentOne.setArguments(bundle);
+            }
+        });
 
+        payment_viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                payment_tabLayout.getTabAt(position).select();
             }
         });
     }

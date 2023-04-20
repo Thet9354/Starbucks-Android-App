@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set the color of the button to transparent -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Set the color of the button's outline to green -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/green" />
+
+    <!-- Set the shape of the button to a capsule -->
+    <corners
+        android:radius="50dp" />
+
+    <!-- Set the padding of the button -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" />
+
+</shape>

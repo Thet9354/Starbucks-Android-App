@@ -121,5 +121,20 @@
         <item name="reward2">-15 ⭐</item>
         <item name="reward1">+15 ⭐️</item>
     </string-array>
+
+    <string-array name="forYou_caption">
+        <item name="caption1">Art in a Cup: Buy One Get One</item>
+        <item name="caption2">12th Dec 2021: Pistachio Christmas Tree Frapuccino</item>
+    </string-array>
+
+    <string-array name="news_caption">
+        <item name="caption1">Elevate Your Tea Experience with New Starbucks Teavana Beverages!</item>
+        <item name="caption2">Shop Now: BTS X Starbucks Korea: Limited Edition Menus &amp; Merchanidise In A Pretty Purple Shade</item>
+        <item name="caption3">Share the Holiday Spirit with Starbucks</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 </resources>
 

@@ -15,7 +15,551 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="367dp"
+                android:layout_height="102dp"
+                android:background="@drawable/balance_bg"
+                android:elevation="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/location_icon"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtView_pickUp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starbucks IPH"
+                                android:textColor="@color/green"
+                                android:textStyle="bold"
+                                android:textSize="16sp"/>
+
+                            <TextView
+                                android:id="@+id/txtView_pickUpAddress"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:text="241 Xuan Thuy, Dich Vong Hau, Can Giay, Hanoi"
+                                android:layout_below="@+id/txtView_startPointName"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imgView_pickUpEdit"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/edit"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="30dp"
+                            android:layout_centerVertical="true"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="124dp"
+                    android:layout_height="23dp"
+                    android:text="Available at"
+                    android:layout_alignParentStart="true"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_pickUpTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14:45"
+                    android:textColor="#DE8737"
+                    android:textSize="14sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtView_pickUpDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday, 28th October 2021"
+                    android:layout_below="@+id/txtView_pickUpTime"
+                    android:textColor="#DE8737"
+                    android:textSize="14sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="20dp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:text="Your order"
+                    android:layout_alignParentStart="true"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_addMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add more"
+                    android:textColor="#DE8737"
+                    android:textSize="14sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="363dp"
+                android:layout_height="70dp"
+                android:background="@drawable/outerbox_bg"
+                android:elevation="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imgView_order"
+                    android:layout_width="25dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/cheesecake_milkshake"/>
+
+                <LinearLayout
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10sp">
+
+                    <TextView
+                        android:id="@+id/txtView_orderName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Strawberry Frappuccino"
+                        android:textSize="13sp"
+                        android:textColor="@color/green"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/txtView_orderDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grande, Cold, Soy Milk"
+                        android:textStyle="bold"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/txtView_orderCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$0.00"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtView_orderQuantity"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/circle_bg"
+                            android:text="1"
+                            android:backgroundTint="#4CBB17"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical|center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/txtView_orderSize"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/circle_bg"
+                            android:text="L"
+                            android:backgroundTint="#DA761A"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_vertical|center_horizontal"/>
+
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_points"
+                        android:layout_width="46dp"
+                        android:layout_height="15dp"
+                        android:text="-5⭐️"
+                        android:textAllCaps="false"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_bg"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgView_bookMarked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bookmark_ic"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="-10dp"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="152dp"
+                android:layout_height="25dp"
+                android:text="Payment method"
+                android:layout_alignParentStart="true"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginStart="23dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You will get 2 stars pay with your Starbucks Card"
+                android:textColor="#D9D07E"
+                android:textSize="12sp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imgView_paymentCard"
+                    android:layout_width="109dp"
+                    android:layout_height="58dp"
+                    android:src="@drawable/starbucks_card"/>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/txtView_starbucksCardNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4567 **** **** 2367"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/txtView_cardName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:layout_marginTop="3dp"
+                        android:text="Xuan Vu"/>
+
+                    <TextView
+                        android:id="@+id/txtView_cardBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$256.204"
+                        android:textSize="12sp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/green"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgView_changeCard"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/forward_arrow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="90dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imgView_voucher"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/voucher"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voucher"
+                    android:textStyle="bold"
+                    android:textColor="#00623B"
+                    android:textSize="15sp"
+                    android:layout_toRightOf="@+id/imgView_voucher"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_chooseVoucher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose"
+                    android:textColor="#D9D07E"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imgView_shippingBy"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/voucher"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shipping by"
+                    android:textStyle="bold"
+                    android:textColor="#00623B"
+                    android:textSize="15sp"
+                    android:layout_toRightOf="@+id/imgView_shippingBy"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_shippingCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grab - $2.00"
+                    android:textColor="#D9D07E"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="129dp"
+                android:layout_height="25dp"
+                android:text="Amount Detail"
+                android:layout_alignParentStart="true"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginStart="23dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textSize="15sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$0.00"
+                    android:textColor="#D9D07E"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shipping Charges"
+                    android:textSize="15sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_shippingCharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$2.00"
+                    android:textColor="#D9D07E"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textStyle="bold"
+                    android:textColor="#00623B"
+                    android:textSize="15sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_totalCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$2.00"
+                    android:textColor="#00623B"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_payNow"
+                android:layout_width="113dp"
+                android:layout_height="25dp"
+                android:text="Pay Now"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginEnd="15dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="20dp"/>
 
         </LinearLayout>
 

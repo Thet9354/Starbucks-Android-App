@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_savedAddress"
+            android:title="Saved Address"/>
+
+        <item
+            android:id="@+id/nav_language"
+            android:title="Languages"/>
+
+        <item
+            android:id="@+id/nav_faq"
+            android:title="FAQ"/>
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"/>
+
+        <item
+            android:id="@+id/nav_privacyPolicy"
+            android:title="Privacy Policy"/>
+
+        <item
+            android:id="@+id/nav_tos"
+            android:title="Term of Service"/>
+
+        <item
+            android:id="@+id/nav_contactUs"
+            android:title="Contact Us"/>
+
+        <item
+            android:id="@+id/nav_logOut"
+            android:title="Log out"/>
+
+    </group>
+
+</menu>
