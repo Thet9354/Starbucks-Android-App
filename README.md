@@ -1,55 +1,118 @@
 # Starbucks-Revamped-App
 
-Starbucks Android App Revamp Project
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Starbucks Android App Revamp Project</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 0;
+		}
+		h2 {
+			font-size: 20px;
+			font-weight: bold;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		h3 {
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		p {
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+		ul {
+			margin-top: 0;
+			margin-bottom: 10px;
+			padding-left: 20px;
+		}
+		li {
+			margin-bottom: 5px;
+		}
+		pre {
+			background-color: #eee;
+			padding: 10px;
+			overflow-x: auto;
+			font-family: monospace;
+			font-size: 14px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Starbucks Android App Revamp Project</h1>
 
-This project is a revamped version of the Starbucks Android app, implemented using Java and built in Android Studio. The goal of the revamp is to improve the user experience and add new features to the app.
+	<p>This project is a revamped version of the Starbucks Android app, implemented using Java and built in Android Studio. The goal of the revamp is to improve the user experience and add new features to the app.</p>
 
-Features
+	<h2>Features</h2>
 
-The revamped Starbucks Android app includes the following features:
+	<ul>
+		<li>Sign-in and registration using email and password, or social media accounts</li>
+		<li>Order history and tracking</li>
+		<li>Menu browsing and customization options</li>
+		<li>Payment options, including mobile payment and gift cards</li>
+		<li>Rewards program integration</li>
+		<li>Store locator and hours of operation</li>
+	</ul>
 
-Sign-in and registration using email and password, or social media accounts
-Order history and tracking
-Menu browsing and customization options
-Payment options, including mobile payment and gift cards
-Rewards program integration
-Store locator and hours of operation
-Installation
+	<h2>Installation</h2>
 
-To install and run the app, follow these steps:
+	<p>To install and run the app, follow these steps:</p>
 
-Clone the repository to your local machine using git clone <repository_url>
-Open the project in Android Studio
-Build and run the app on an Android device or emulator
-Usage
+	<ol>
+		<li>Clone the repository to your local machine using <code>git clone &lt;repository_url&gt;</code></li>
+		<li>Open the project in Android Studio</li>
+		<li>Build and run the app on an Android device or emulator</li>
+	</ol>
 
-To use the app, follow these steps:
+	<h2>Usage</h2>
 
-Sign in or register a new account
-Browse the menu and customize your order as desired
-Add items to your cart and proceed to checkout
-Choose your payment method and complete your order
-Track your order status and pick up your order at a Starbucks location near you
-Contributing
+	<p>To use the app, follow these steps:</p>
 
-Contributions to the project are welcome! To contribute, follow these steps:
+	<ol>
+		<li>Sign in or register a new account</li>
+		<li>Browse the menu and customize your order as desired</li>
+		<li>Add items to your cart and proceed to checkout</li>
+		<li>Choose your payment method and complete your order</li>
+		<li>Track your order status and pick up your order at a Starbucks location near you</li>
+	</ol>
 
-Fork the repository to your own GitHub account
-Create a new branch for your changes using git checkout -b <branch_name>
-Make your changes and commit them to your branch
-Push your changes to your forked repository using git push origin <branch_name>
-Submit a pull request to the original repository
-License
+	<h2>Contributing</h2>
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+	<p>Contributions to the project are welcome! To contribute, follow these steps:</p>
 
-Acknowledgments
+	<ol>
+		<li>Fork the repository to your own GitHub account</li>
+		<li>Create a new branch for your changes using </li.
+    <code>git checkout -b <branch_name></code></li>
+<li>Make your changes and commit them with a descriptive commit message</li>
+<li>Push your changes to your forked repository</li>
+<li>Create a pull request to merge your changes into the main repository</li>
+</ol>
+  
+  <h2>License</h2>
 
-This project was inspired by the original Starbucks Android app and built using resources from the following sources:
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-Starbucks API documentation
-Android documentation
-Java documentation
+<h2>Contact</h2>
+
+<p>If you have any questions or feedback, please contact the project owner at <a href="mailto:your.email@domain.com">your.email@domain.com</a>.</p>
 
 
 ![A picture of the strabucks app](https://github.com/Thet9354/Starbucks-Android-App/blob/aff773a6c75bb6eef8c225ada236df81ec0238f2/app/src/main/res/drawable/cover.png)
