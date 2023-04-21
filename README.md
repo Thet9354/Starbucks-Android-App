@@ -2,7 +2,7 @@
 
 This project is a revamped version of the Starbucks Android app, implemented using Java and built in Android Studio. The goal of the revamp is to improve the user experience and add new features to the app.
 
-</h2>Features</h2>
+<h2>Features</h2>
 
 The revamped Starbucks Android app includes the following features:
 
