@@ -37,4 +37,9 @@
     <style name="EditTextUnderline" parent="Widget.AppCompat.EditText">
         <item name="android:background">@drawable/edit_text_background</item>
     </style>
+
+    <style name="RadioButtonNoCircle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+    </style>
+
 </resources>
