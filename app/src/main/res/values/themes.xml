@@ -26,4 +26,15 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:iconTint" tools:targetApi="o">@color/black</item>
     </style>
+
+    <style name="CustomSpinnerDropdownStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:divider">@color/light_gray</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="EditTextUnderline" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
 </resources>

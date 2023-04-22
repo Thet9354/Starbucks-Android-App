@@ -4,32 +4,32 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_savedAddress"
-            android:title="Saved Address"/>
+            android:id="@+id/nav_personalInformation"
+            android:title="Personal Information"/>
 
         <item
-            android:id="@+id/nav_language"
-            android:title="Languages"/>
+            android:id="@+id/nav_preference"
+            android:title="Preference"/>
+
+        <item
+            android:id="@+id/nav_security"
+            android:title="Security"/>
 
         <item
             android:id="@+id/nav_faq"
-            android:title="FAQ"/>
+            android:title="FAQs"/>
 
         <item
-            android:id="@+id/nav_help"
-            android:title="Help"/>
+            android:id="@+id/nav_feedback"
+            android:title="Feedback"/>
+
+        <item
+            android:id="@+id/nav_tou"
+            android:title="Term of Use"/>
 
         <item
             android:id="@+id/nav_privacyPolicy"
             android:title="Privacy Policy"/>
-
-        <item
-            android:id="@+id/nav_tos"
-            android:title="Term of Service"/>
-
-        <item
-            android:id="@+id/nav_contactUs"
-            android:title="Contact Us"/>
 
         <item
             android:id="@+id/nav_logOut"

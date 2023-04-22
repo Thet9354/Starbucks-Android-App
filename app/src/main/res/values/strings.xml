@@ -136,5 +136,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="copyright">© 2023 Starbucks Coffee Company. All rights reserved.</string>
+    <string name="birthday_text">Let us know your birthday so you won\'t miss a birthday treat</string>
+
 </resources>
 

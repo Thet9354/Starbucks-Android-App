@@ -1,6 +1,8 @@
 package com.example.starbucks.Fragments;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
@@ -32,6 +34,13 @@ import com.example.starbucks.Model.News;
 import com.example.starbucks.Model.Promotions;
 import com.example.starbucks.Onboarding.LogIn_Activity;
 import com.example.starbucks.R;
+import com.example.starbucks.Settings.FAQs_Activity;
+import com.example.starbucks.Settings.Feedback_Activity;
+import com.example.starbucks.Settings.PersonalInformation_Activity;
+import com.example.starbucks.Settings.Preferences_Activity;
+import com.example.starbucks.Settings.PrivacyPolicy_Activity;
+import com.example.starbucks.Settings.Security_Activity;
+import com.example.starbucks.Settings.TOU_Activity;
 import com.example.starbucks.SpaceItemDecoration;
 import com.google.android.material.navigation.NavigationView;
 
@@ -40,7 +49,7 @@ import java.util.ArrayList;
 
 public class Home extends Fragment {
 
-    private ImageView btn_notification, btn_filter, imgView_accName, imgView_starbucksCard;
+    private ImageView btn_notification, btn_filter, imgView_accName, imgView_starbucksCard, imgView_instagram, imgView_facebook, imgView_pinterest, imgView_twitter;
     private TextView txtView_accName, txtView_greenCardLevel, txtView_greenCurrentPoints, txtView_goldCardLevel, txtView_currentGoldPoint;
     private RelativeLayout rel_greenRewardCard, rel_goldRewardCard;
     private ProgressBar pb_greenRewardPoints, pb_goldRewardPoints;
@@ -87,6 +96,11 @@ public class Home extends Fragment {
         btn_filter = v.findViewById(R.id.btn_filter);
         imgView_accName = v.findViewById(R.id.imgView_accName);
         imgView_starbucksCard = v.findViewById(R.id.imgView_starbucksCard);
+        imgView_instagram = v.findViewById(R.id.imgView_instagram);
+        imgView_facebook = v.findViewById(R.id.imgView_facebook);
+        imgView_pinterest = v.findViewById(R.id.imgView_pinterest);
+        imgView_twitter = v.findViewById(R.id.imgView_twitter);
+
 
         //TextView
         txtView_accName = v.findViewById(R.id.txtView_accName);
@@ -156,29 +170,38 @@ public class Home extends Fragment {
 
                 switch (item.getItemId())
                 {
-                    //TODO: Create the individual activity for the navigation View menus
-                    case R.id.nav_savedAddress:
+                    case R.id.nav_personalInformation:
+                        startActivity(new Intent(mContext, PersonalInformation_Activity.class));
                         break;
 
-                    case R.id.nav_language:
+                    case R.id.nav_preference:
+                        startActivity(new Intent(mContext, Preferences_Activity.class));
+                        break;
+
+                    case R.id.nav_security:
+                        startActivity(new Intent(mContext, Security_Activity.class));
                         break;
 
                     case R.id.nav_faq:
+                        startActivity(new Intent(mContext, FAQs_Activity.class));
                         break;
 
-                    case R.id.nav_help:
+                    case R.id.nav_feedback:
+                        startActivity(new Intent(mContext, Feedback_Activity.class));
+                        break;
+
+                    case R.id.nav_tou:
+                        startActivity(new Intent(mContext, TOU_Activity.class));
                         break;
 
                     case R.id.nav_privacyPolicy:
-                        break;
-
-                    case R.id.nav_tos:
-                        break;
-
-                    case R.id.nav_contactUs:
+                        startActivity(new Intent(mContext, PrivacyPolicy_Activity.class));
                         break;
 
                     case R.id.nav_logOut:
+                        Intent intent = new Intent();
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
                         break;
                 }
 
@@ -187,6 +210,50 @@ public class Home extends Fragment {
         });
 
 
+
+        imgView_instagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the Instagram site
+                String url = "https://www.instagram.com/starbucks/";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        imgView_facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the Facebook site
+                String url = "https://www.facebook.com/Starbucks/";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        imgView_pinterest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the Pinterest site
+                String url = "https://www.pinterest.com/starbucks/";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        imgView_twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the Twitter site
+                String url = "https://twitter.com/starbucks?s=21&t=6c8RiYh82mZ938rtJFWIow";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
 
 
     }
@@ -206,6 +273,26 @@ public class Home extends Fragment {
 
         nav_view.bringToFront();
 
+        initHeaderView();
+
+    }
+
+    private void initHeaderView() {
+
+        View headerView = nav_view.getHeaderView(0);
+
+        ImageView btn_close = headerView.findViewById(R.id.btn_close);
+        de.hdodenhof.circleimageview.CircleImageView imgView_accName = headerView.findViewById(R.id.imgView_accName);
+        TextView txtView_accName = headerView.findViewById(R.id.txtView_accName);
+        TextView txtView_accEmail = headerView.findViewById(R.id.txtView_accEmail);
+        com.google.android.material.switchmaterial.SwitchMaterial switch_notification = headerView.findViewById(R.id.switch_notification);
+
+        btn_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawer_Layout.closeDrawer(GravityCompat.END);
+            }
+        });
     }
 
     private void initRecViewNews() {

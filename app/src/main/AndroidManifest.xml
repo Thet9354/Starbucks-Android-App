@@ -14,6 +14,27 @@
         android:theme="@style/Theme.Starbucks"
         tools:targetApi="31">
         <activity
+            android:name=".Settings.PrivacyPolicy_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.TOU_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.FAQs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.Security_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.Preferences_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.PersonalInformation_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Order.PaymentSuccessful_Activity"
             android:exported="false" />
         <activity
