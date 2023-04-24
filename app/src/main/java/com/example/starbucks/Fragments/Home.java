@@ -8,8 +8,6 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -28,16 +26,13 @@ import android.widget.TextView;
 
 import com.example.starbucks.Adapter.ForYouAdapter;
 import com.example.starbucks.Adapter.NewsAdapter;
-import com.example.starbucks.Adapter.PromotionAdapter;
 import com.example.starbucks.Model.ForYou;
 import com.example.starbucks.Model.News;
-import com.example.starbucks.Model.Promotions;
-import com.example.starbucks.Onboarding.LogIn_Activity;
 import com.example.starbucks.R;
 import com.example.starbucks.Settings.FAQs_Activity;
 import com.example.starbucks.Settings.Feedback_Activity;
 import com.example.starbucks.Settings.PersonalInformation_Activity;
-import com.example.starbucks.Settings.Preferences_Activity;
+import com.example.starbucks.Settings.Preferences.Preferences_Activity;
 import com.example.starbucks.Settings.PrivacyPolicy_Activity;
 import com.example.starbucks.Settings.Security_Activity;
 import com.example.starbucks.Settings.TOU_Activity;
@@ -254,7 +249,6 @@ public class Home extends Fragment {
                 startActivity(intent);
             }
         });
-
 
     }
 

@@ -29,7 +29,7 @@
             android:name=".Settings.Security_Activity"
             android:exported="false" />
         <activity
-            android:name=".Settings.Preferences_Activity"
+            android:name=".Settings.Preferences.Preferences_Activity"
             android:exported="false" />
         <activity
             android:name=".Settings.PersonalInformation_Activity"

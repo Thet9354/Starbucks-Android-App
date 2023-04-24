@@ -23,6 +23,10 @@ public class PersonalInformation_Activity extends AppCompatActivity {
     private EditText editTxt_salutation, editTxt_firstName, editTxt_lastName, editTxt_month, editTxt_year, editTxt_email, editTxt_countryCode, editTxt_phoneNumber;
     private androidx.appcompat.widget.AppCompatCheckBox cb_fnb, cb_merchandise, cb_promotions, cb_cno, cb_events, cb_brandValues, cb_email, cb_sms;
 
+    //Variable to store values
+    private String mSalutation, firstName, lastName, phoneNumber;
+    private Boolean fnb, merchandise, promotions, cno, events, brandValues, email, sms;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +52,19 @@ public class PersonalInformation_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //TODO: Update the user's personal information
+                mSalutation = editTxt_salutation.getText().toString();
+                firstName = editTxt_firstName.getText().toString();
+                lastName = editTxt_lastName.getText().toString();
+                phoneNumber = editTxt_phoneNumber.getText().toString();
+
+                //Do not need to validate salutation since it can never be empty
+                validateFirstName();
+                validateLastName();
+                validatePhoneNumber();
+                validateInput();
+
+
+
             }
         });
 
@@ -59,6 +76,7 @@ public class PersonalInformation_Activity extends AppCompatActivity {
 
                 alertDialog.setView(salutationDialog);
                 ImageView btn_close = (ImageView) salutationDialog.findViewById(R.id.btn_close);
+                RadioGroup rg_salutations = (RadioGroup) salutationDialog.findViewById(R.id.rg_salutations);
                 RadioButton rb_mdm = (RadioButton) salutationDialog.findViewById(R.id.rb_mdm);
                 RadioButton rb_mr = (RadioButton) salutationDialog.findViewById(R.id.rb_mr);
                 RadioButton rb_mrs = (RadioButton) salutationDialog.findViewById(R.id.rb_mrs);
@@ -68,6 +86,29 @@ public class PersonalInformation_Activity extends AppCompatActivity {
 
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.show();
+
+                rg_salutations.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(RadioGroup group, int checkedId) {
+                        switch (checkedId)
+                        {
+                            case R.id.rb_mdm:
+                                editTxt_salutation.setText(rb_mdm.getText().toString());
+                                break;
+                            case R.id.rb_mr:
+                                editTxt_salutation.setText(rb_mr.getText().toString());
+                                break;
+                            case R.id.rb_mrs:
+                                editTxt_salutation.setText(rb_mrs.getText().toString());
+                                break;
+                            case R.id.rb_ms:
+                                editTxt_salutation.setText(rb_ms.getText().toString());
+                                break;
+                        }
+                        dialog.cancel();
+                    }
+                });
+
 
                 btn_close.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -80,8 +121,62 @@ public class PersonalInformation_Activity extends AppCompatActivity {
         });
     }
 
+    private void validateInput() {
+        if (!validateFirstName() | !validateLastName() | !validatePhoneNumber())
+            return;
+        else
+            updateUserInfo();
+    }
+
+    private void updateUserInfo() {
+        //Update the user's info in firebase
+    }
+
+    private boolean validatePhoneNumber() {
+        if (phoneNumber.isEmpty())
+        {
+            editTxt_phoneNumber.setError("Field cannot be empty to proceed");
+            return false;
+        }
+        else
+            return true;
+    }
+
+    private boolean validateLastName() {
+        if (lastName.isEmpty())
+        {
+            editTxt_lastName.setError("Field cannot be empty to proceed");
+            return false;
+        }
+        else
+            return true;
+    }
+
+    private boolean validateFirstName() {
+        if (firstName.isEmpty())
+        {
+            editTxt_firstName.setError("Field cannot be empty to proceed");
+            return false;
+        }
+        else
+            return true;
+    }
+
     private void initUI() {
         //Set the user's information
+        checkboxDefaultValues();
+    }
+
+    private void checkboxDefaultValues() {
+        //Setting a default boolean value for all the boolean variables for checkboxes
+        fnb = false;
+        merchandise = false;
+        promotions = false;
+        cno = false;
+        events = false;
+        brandValues = false;
+        email = true;
+        sms = true;
     }
 
     private void initWidget() {

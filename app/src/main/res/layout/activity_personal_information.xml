@@ -80,6 +80,9 @@
                     android:layout_height="40dp"
                     android:layout_gravity="start"
                     android:layout_marginEnd="5dp"
+                    android:textCursorDrawable="@null"
+                    android:cursorVisible="false"
+                    android:backgroundTint="@null"
                     android:drawableEnd="@drawable/arrow_down"
                     android:text="Mr"
                     android:textSize="13sp" />
@@ -107,7 +110,8 @@
                     android:layout_height="40dp"
                     android:layout_gravity="start"
                     android:layout_marginEnd="5dp"
-                    android:text="Thet"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm"
+                    android:text="Frederick"
                     android:textSize="13sp" />
 
             </LinearLayout>
@@ -133,7 +137,8 @@
                     android:layout_height="40dp"
                     android:layout_gravity="start"
                     android:layout_marginEnd="5dp"
-                    android:text="Pine"
+                    android:text="Lim"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm"
                     android:textSize="13sp" />
 
             </LinearLayout>
@@ -186,6 +191,8 @@
                         android:drawableEnd="@drawable/lock_ic"
                         android:drawablePadding="50dp"
                         android:text="2"
+                        android:clickable="false"
+                        android:enabled="false"
                         android:textColor="@color/light_gray"
                         android:textSize="13sp" />
 
@@ -214,7 +221,9 @@
                         android:layout_marginEnd="5dp"
                         android:drawableEnd="@drawable/lock_ic"
                         android:drawablePadding="50dp"
-                        android:text="2004"
+                        android:text="1997"
+                        android:enabled="false"
+                        android:clickable="false"
                         android:textColor="@color/light_gray"
                         android:textSize="13sp" />
 
@@ -253,6 +262,8 @@
                     android:layout_marginEnd="5dp"
                     android:drawableEnd="@drawable/lock_ic"
                     android:text="thetpine254@gmail.com"
+                    android:enabled="false"
+                    android:clickable="false"
                     android:textColor="@color/light_gray"
                     android:textSize="13sp" />
 
@@ -284,7 +295,12 @@
                         android:layout_height="35dp"
                         android:layout_gravity="start"
                         android:layout_marginEnd="5dp"
+                        android:textCursorDrawable="@null"
+                        android:cursorVisible="false"
+                        android:backgroundTint="@null"
                         android:text="+65"
+                        android:clickable="false"
+                        android:enabled="false"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
@@ -312,6 +328,8 @@
                         android:layout_gravity="start"
                         android:layout_marginEnd="10dp"
                         android:text="93542856"
+                        android:maxLength="8"
+                        android:digits="1234567890"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 

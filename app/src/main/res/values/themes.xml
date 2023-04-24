@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
 
     <style name="MyTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
@@ -41,5 +42,4 @@
     <style name="RadioButtonNoCircle" parent="@android:style/Widget.CompoundButton.RadioButton">
         <item name="android:button">@null</item>
     </style>
-
 </resources>
