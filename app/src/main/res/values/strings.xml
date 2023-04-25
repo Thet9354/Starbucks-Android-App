@@ -139,5 +139,9 @@
     <string name="copyright">© 2023 Starbucks Coffee Company. All rights reserved.</string>
     <string name="birthday_text">Let us know your birthday so you won\'t miss a birthday treat</string>
 
+    <string name="registerStarbucksCard">To register your Starbucks Card, simply log in to your\nStarbucks Singapore account on the memberships portal\nonline here or our Starbucks Singapore mobile app to add\n(+) it in. If you do not have an account, you may create an\naccount here.</string>
+    <string name="registerEmailAddress">If you have any issues in changing your email adrress,\ndo fill up the form here and share your new and old\nemail address with us. Our team will get back to you within 5 working days.</string>
+    // Continue from here
+
 </resources>
 
