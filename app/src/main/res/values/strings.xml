@@ -140,8 +140,67 @@
     <string name="birthday_text">Let us know your birthday so you won\'t miss a birthday treat</string>
 
     <string name="registerStarbucksCard">To register your Starbucks Card, simply log in to your\nStarbucks Singapore account on the memberships portal\nonline here or our Starbucks Singapore mobile app to add\n(+) it in. If you do not have an account, you may create an\naccount here.</string>
-    <string name="registerEmailAddress">If you have any issues in changing your email adrress,\ndo fill up the form here and share your new and old\nemail address with us. Our team will get back to you within 5 working days.</string>
-    // Continue from here
+    <string name="registerEmailAddress">If you have any issues in changing your email address,\ndo fill up the form here and share your new and old\nemail address with us. Our team will get back to you within 5 working days.</string>
+    <string name="changeAccPassword1">To reset your password, click on the "Forget Password?" button found on the login page here and a reset password link with instructions will be sent to your registered email address.</string>
+    <string name="changeAccPassword2">If you have any issues in changing your password, do fill up the form here. Our team will get back to you within 5 working days. If you do not receive the email within the next few minutes, please check your email account\'s Junk/Spam folder</string>
+    <string name="passwordCondition1">Have 9 or more characters</string>
+    <string name="passwordCondition2">Contain alphabet and numeric characters</string>
+    <string name="passwordCondition3">Contain at least 1 special character(eg, !, @, #, $, %, ^)</string>
+
+    <string name="FAQ14">I have selected the wrong birthday month during the activation of my card, how can i change it?</string>
+    <string name="wrongBDMonth">Customers are not allowed to make changes to their birthday month on their account. If you\'re looking to change it, do fill up the form here and share your birth month with us, we will assist you accordingly</string>
+
+
+    <string name="FAQ15">How does starbucks protect my privacy after I register my starbucks Card?</string>
+    <string name="cardPrivacy">Starbucks does not sell or share your personal information,\nincluding your name, address, phone number, email\naddress, birth date, financial information etc. With\nthird parties. We take great care in managing your personal\ninformation only in accordance with our Starbucks Privacy\nStatement</string>
+
+    <string name="FAQ16">What methods of payment can be used to activate or reload a Starbucks Card?</string>
+    <string name="ReloadStarbucksCard">Cash, Nets or credit card can be used to activate and/or reload a Starbucks Card.</string>
+
+    <string name="FAQ17">Can a Starbucks Card be used to activate or reload another Starbucks Card?</string>
+    <string name="StarbucksCardReloadCard">No. Only cash, Nets or credit card can be used to activate\nand/or reload a starbucks Card. However, you can log in to\nyour My Starbucks Card account online at\nwww.starbucks.com.sg or via the Starbucks mobile apps to\ntransfer funds between any of your registered Starbucks Cards.</string>
+
+    <string name="FAQ18">What is the minimum activation amount?</string>
+    <string name="MinimumActivationAmount">S$10 is the minimum activation amount.</string>
+
+    <string name="FAQ19">What is the maximum activation amount?</string>
+    <string name="MaxActAmount">S$300 is the maximum activation amount.</string>
+
+    <string name="FAQ20">Where can I use my Starbucks Card?</string>
+    <string name="WhereToUseCard">Your starbucks Card can be used at all Starbucks stores in\nSingapore except stores located at Changi Airport\n(excluding Jewel).</string>
+
+    <string name="FAQ21">How do I view and manage my Starbucks Card account?</string>
+    <string name="viewAndManageCard">You can check your Starbucks Card account details,\ntransactions, Stars balance and Rewards as well as reload\nyour card by logging into your account through our website\nhere or through our Starbucks Singapore mobile apps</string>
+
+    <string name="FAQ22">Will my receipt have my Starbucks Card\nbalance on it when I use it to make a\npurchase?</string>
+    <string name="cardReceipt">Yes.</string>
+
+    <string name="FAQ23">Does Starbucks charge any service fee for my Starbucks Card?</string>
+    <string name="cardServiceFee">No.</string>
+
+    <string name="FAQ24">How do I reload my Starbucks Card</string>
+    <string name="reloadStarbucksCard">You can reload your Starbucks Card at any participating\nStarbucks store in Singapore or through our the Starbucks Singapore mobile application. You can reload a minimum of S$10 each time(i.e. you can only reload in\ndenominations of S$10 per load). The maximum balance\nthat can be stored on a Starbucks Card at any time id S$300.</string>
+
+    <string name="FAQ25">Can I use my Starbucks Card when i travel internationally?</string>
+    <string name="travelCard">No. Singapore Starbucks Cards cannot be used in any other\nmarkets. The cards can only be used in Singapore.</string>
+
+    <string name="FAQ26">What should I do if my Starbucks Card is lost or stolen?</string>
+    <string name="stolenCard">If you have registered your Starbucks Card or have added it\nto an existing account, please log into your account through\nthe member\'s portal, click "My Cards", and select the Card\nyou would like to report lost. Click on "Report Lost Card"\nand follow the instructions given to transfer the balance of your lost Card to another existing Card or request for a\nreplacement card. Alternatively, you may also report lost of\nyour Starbucks Card via the\n\nStarbucks Singapore App under the "Manage" section\nof your Starbucks Card.\n\nIf you have not registered your Starbucks Card, please\nregister if before using it to make purchases in order to\nearn Stars and collect Rewards on all your purchases. If you're unable to register, do reach out the customer care\nteam for further assistance.</string>
+
+    <string name="FAQ27">Can the Starbucks Card be refunded?</string>
+    <string name="refundCard">Refunds can only be done personally at the Starbucks head\n office in Singapore and in accordance with the refund\npolicy and procedures in the Starbucks Card Terms of Use.\nYou must present the original sale receipt for the purchase\nof the Starbucks Card together with the card for a refund to be processed.</string>
+
+    <string name="FAQ28">How do I check the remaining value on my Starbucks Card?</string>
+    <string name="remainingValue">You can log into your Starbucks Card account via our\nStarbucks Card membership portal or through our\nStarbucks Singapore mobile apps. You can also reload your\ncard through our website or our Starbucks Singapore\nmobile apps.</string>
+
+    <string name="FAQ29">Can I view my transaction history and Stars earned?</string>
+    <string name="transactionHistoryStars">You can view your transaction history and the Stars earned\nby logging into your Starbucks Card account through our\nwebsite here(up to past 6 months) or through our Starbucks Singapore mobile app (up to first 10 transaction\nof the past 3 months). Please allow up to 24 hours for\ndetails of the transaction history to be updated to your\naccount.</string>
+
+    <string name="FAQ30">Can I use my Starbucks Card when i travel internationally?</string>
+    <string name="rewardList">You cab view your rewards by logging into your Starbucks\nCard account through our website at\nwww.starbucks.com.sg or through our Starbucks Singapore\nmobile app.</string>
+
+    <string name="FAQ31">Can I use my Starbucks Card when i travel internationally?</string>
+    <string name="transferFundBetweenCards">You can transfer funds between your registered cards by\nlogging into your Starbucks Card account through our\nwebsite at www.starbucks.com.sg or through our Starbucks\nSingapore mobile apps.</string>
 
 </resources>
 
