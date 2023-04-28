@@ -204,22 +204,22 @@
 
     <!-- For Starbucks Reward FAQ-->
     <string name="FAQ32">What is Starbucks Reward program</string>
-    <string name="starbucksRewardProgram">Starbucks Rewards is a membership program that rewards\nand thanks loyal customers for patronizing Starbucks stores\nin Singapore. The program benefits all Starbucks Rewards\nmembers as you earn Stars when you pay via your\nregistered Starbucks Card at all participating Starbucks\nstores in Singapore, amongst other rewards. Additionally, if\nyou sign up to receive communications from Starbucks\nwhen you register your Card, you will be among the first to\nreceive news, exclusive offers and information about\nStarbucks.</string>
+    <string name="starbucksRewardProgram">Starbucks Rewards is a membership program that rewards and thanks loyal customers for patronizing Starbucks stores in Singapore. The program benefits all Starbucks Rewards members as you earn Stars when you pay via your registered Starbucks Card at all participating Starbucks stores in Singapore, amongst other rewards. Additionally, if you sign up to receive communications from Starbucks when you register your Card, you will be among the first to receive news, exclusive offers and information about Starbucks.</string>
 
     <string name="FAQ33">How does Starbucks Rewards program work?</string>
-    <string name="starbucksRewardProgramWork1">You can join the program by registering your Starbucks Card\nvia http://www.starbucks.com.sg/rewards/join. Simply\npurchase a Starbucks Card in any of our stores (except for\nstores located at Changi Airport other than Starbucks Jewel\nChangi Airport) by loading a minimum of S$10.\nAlternatively, if you do not have a Starbucks Card, you can\nsign up with a digital card via\nhttps://www.starbucks.com.sg/rewards/join or the\nStarbucks Singapore app. You can start collecting Stars and\nearning rewards by paying with your registered Starbucks\nCard. For every S$1 you spend, you will earn 1 Star. There are\n two membership levels in this program.</string>
+    <string name="starbucksRewardProgramWork1">You can join the program by registering your Starbucks Card via http://www.starbucks.com.sg/rewards/join. Simply purchase a Starbucks Card in any of our stores (except for stores located at Changi Airport other than Starbucks Jewel Changi Airport) by loading a minimum of S$10. Alternatively, if you do not have a Starbucks Card, you can sign up with a digital card via https://www.starbucks.com.sg/rewards/join or the Starbucks Singapore app. You can start collecting Stars and earning rewards by paying with your registered Starbucks Card. For every S$1 you spend, you will earn 1 Star. There are two membership levels in this program.</string>
     <string name="starbucksRewardProgramWork2">Upon creating a new Starbucks account when you register your first Starbucks Card, you will automatically become a Green level Starbucks Rewards member. This means you will receive the following privileges:</string>
     <string name="starbucksRewardProgramWork3">After you earn 300 Stars within a period of 12 months, you will be upgraded to a Gold level Starbucks Reward member, where you will receive these additional privileges (on top of what\'s mentioned above):</string>
     <string name="starbucksRewardProgramWork4">^Applicable to newly upgraded Gold members only, Gold members will receive one Gold Card in his or her lifetime.</string>
 
     <string name="FAQ34">How do I upgrade to Gold level?</string>
-    <string name="UpgradeGoldLevel">Once you qualify for Green level, you will be at that level for a full year from the date you qualified - this will be your anniversary date to earn 300 Stars in order to upgrade to Gold level. Stars are refreshed and reset every year and will not be brought forward</string>
+    <string name="upgradeGoldLevel">Once you qualify for Green level, you will be at that level for a full year from the date you qualified - this will be your anniversary date to earn 300 Stars in order to upgrade to Gold level. Stars are refreshed and reset every year and will not be brought forward</string>
 
     <string name="FAQ35">How do I maintain Gold Level status?</string>
     <string name="maintainGoldLevelStatus">Once you qualify for Green level, you will be at that level for a full year from the date you qualified - this will be your anniversary date to earn 300 Stars in order to extend your Gold level membership for another year.\n\nIf you do not earn 300 Stars in one year, you will start your new year at Green level. Stars are refreshed and reset every year and will not be brought forward.</string>
 
     <string name="FAQ36">What are the participating Starbucks stores for the Starbucks stores for the Starbucks stores for the Starbucks Rewards program?</string>
-    <string name="participatingRewardProgram">Starbucks Rewards are enjoyed with spend on your registered STarbucks Card. You can make payment for your Starbucks purchase at all stores in Singapore except stores that are located at Singapore Changi Airport, other than Starbucks Jewel Changi Airport. This program stated here is applicable in Singapore only.</string>
+    <string name="participatingRewardProgram">Starbucks Rewards are enjoyed with spend on your registered Starbucks Card. You can make payment for your Starbucks purchase at all stores in Singapore except stores that are located at Singapore Changi Airport, other than Starbucks Jewel Changi Airport. This program stated here is applicable in Singapore only.</string>
 
     <string name="FAQ37">How do I register for a Starbucks Rewards account if I\'m not a member?</string>
     <string name="RegisterAccIfNotMember">Registering for Starbucks Rewards is easy. You can join the program by registering your Starbucks Card. Simply purchase a Starbucks Card in any of our stores (except for stores located at Changi Airport other than Starbucks Jewel Changi Airport) by loading a minimum of S$10</string>
@@ -230,10 +230,10 @@
     <string name="multipleRenewalInOneYear2">For example, if you are a Gold member, we will track to see if you have earned a minimum of 300 Stars during the 12-month period before your anniversary date. if so, you will remain at the Gold level for another year. Your Star balance will still revert to zero and Stars will not be brought forward.</string>
 
     <string name="FAQ39">What are Stars and how do I earn them?</string>
-    <string name="WhatAreStars">You can earn Stars and receive rewards simply by paying with any Starbcuks Card registered to your account at a participating Starbucks store in Singapore(except stores located at Changi Airport other than Starbucks Jewel Changi Airport). For every S$1 you spend, you will earn 1 Star. For example, if you have spent S10.10, you will see 10.10 Stars reflected in your account for that transaction. Do note that Stars may take up to 24 hours to be reflected in your account.</string>
+    <string name="WhatAreStars">You can earn Stars and receive rewards simply by paying with any Starbucks Card registered to your account at a participating Starbucks store in Singapore(except stores located at Changi Airport other than Starbucks Jewel Changi Airport). For every S$1 you spend, you will earn 1 Star. For example, if you have spent S10.10, you will see 10.10 Stars reflected in your account for that transaction. Do note that Stars may take up to 24 hours to be reflected in your account.</string>
 
     <string name="FAQ40">How are the Stars used?</string>
-    <string name="HowStarsUsed">The Stars are used to determine the level of Starbucks-Rewards memebrship and rewards that are eligible for redemption.</string>
+    <string name="HowStarsUsed">The Stars are used to determine the level of Starbucks-Rewards membership and rewards that are eligible for redemption.</string>
 
     <string name="FAQ41">What rewards can I redeem my Stars for?</string>
     <string name="RewardsToRedeemWithStars">Not applicable on bottled beverages, seasonal promotional items (such as Mooncake Boxes) and purchases or reloading of Starbucks Card.</string>
@@ -249,6 +249,57 @@
     <string name="doStarsExpire">Yes. Stars will expire 1 year from your anniversary date(the date you qualified for the current level of your Starbucks Rewards membership). After registering a new account, you have 12 months to earn Stars to reach the next level. Upon reaching a new level, you will have another 12 months from the date that you reached that level to earn Stars to maintain your membership at that level or to progress to the next level.</string>
     <string name="doStarsExpire2">This means that if you have just created a new account, you  have one year to earn 300 Stars to reach Gold level.</string>
     <string name="doStarsExpire3">Once you hit Gold level, you will have one year from that date(your anniversary date) to earn 300 Stars to maintain your Gold level. If you earn less than 300 Stars, you\'ll start the new year as a Green level member. Stars get refreshed annually and you will not be brought forward.</string>
+
+    <!--Mobile Order and Pay-->
+    <string name="FAQ45">What is Mobile Order &amp; Pay?</string>
+    <string name="whatIsMOP">Mobile Order &amp; Pay is a feature on the Starbucks Singapore mobile app, it is a stramlined store experience for Starbucks Rewards members who order and pay with out app. Place an order, pay ahead, and choose a pickup method that best suits you - Order &amp; PickUp Now | Schedule An Order | Dine-in Ordering With Mobile Order &amp; Pay, you can collect Stars and earn Rewards with Starbucks rewards just like you do when paying  in store.\n\nStarbucks Singapore mobile app is available for download on the Ap Store and Google Play Store.</string>
+
+    <string name="FAQ46">Where is Mobile Order &amp; Pay available?</string>
+    <string name="whereMOP">Mobile Order &amp; Pay is available at all Starbucks Singapore stores except: Samsung Hub, Sentosa(Imbiah Lookout), Universal Studios Singapore, and all Changi Airport stores including Jewel.</string>
+
+    <string name="FAQ47">Why can\'t I update the Starbucks Singapore app to the latest version on my phone?</string>
+    <string name="updateStarbucksApp">If you are an existing user of the Starbucks Singapore mobile app and the app does not automatically update to the latest version, simply uninstall the exiting app, and download the latest version from the App Store or Google Play Store to discover the new features.</string>
+
+    <string name="FAQ48">How do I register for a Starbucks Rewards account if I\'m not already a member</string>
+    <string name="registerIfNotMember">Registering for Starbucks Rewards is easy. You can join the program by registering via our website or out mobile app. Simply create an account and start collecting Stars and Rewards by paying with your digital Starbucks Card on your mobile app.</string>
+
+    <string name="FAQ49">What can I purchase on Mobile Order &amp; Pay</string>
+    <string name="whatICanPurchase">Almost all your favourite Starbucks beverages, food items and selected At-Home coffee &amp; tea are avilable through Mobile Order &amp; Pay. The "Order" section of the app has a menu which lists all available offerings at participating stores. With a few taps on you phone, you can customize your favourite beverages and choose to have your food served warm, just as you can with in-store orders.</string>
+
+    <string name="FAQ50">How do I place an Order</string>
+    <string name="howToPlaceOrder">To use Mobile Order and Pay, tap on the "Order" option located on the bottom of the screen. You can place a Mobile Order in three ways:</string>
+    <string name="howToPlaceOrder2">Place an order and pay ahead using the app. This allows you to walk in without queueing a line and pick up your freshly made order at the pickup area, all within minutes.</string>
+    <string name="howToPlaceOrder3">Once you have found a table in-store, place an order, pay ahead on the app and we will notify you when your order is ready. That means you can skip the queue and pick up your freshly made order at the counter when it is ready.\n\nAll dine-in orders will be served in for-here serverware. Find out how to order ahead here.</string>
+
+    <string name="FAQ51">How do I pick up my order?</string>
+    <string name="howToPickUpOrder">When your order is ready for pick-up, you wil receive a notification message sent via the Starbucks Singapore mobile app. Please proceed to the store you have selected within the estimated "ready by" time shown on the app or the "scheduled time" if you have chosen Schedule an Order.\n\nCollect your order at the pick-up area by presenting your order details to our baristas.</string>
+
+    <string name="FAQ52">How do I choose which store to place my order at?</string>
+    <string name="chooseWhichStore">When you use Mobile Order &amp; Pay, the app will detect the nearest participating Starbucks store to your current location. The app will also display the current menu availability from that store. You can either pick the store detected, or manually pick another store by tapping the map or using the "Search" function. Once your order is submitted, you will be able to change the pick-up store.</string>
+
+    <string name="FAQ53">Can I place an order before a store is open?</string>
+    <string name="beforeStoreOpens">Mobile Orders can only be made within the store operating hours.</string>
+
+    <string name="FAQ54">Is there a maximum number of items that can be ordered through Mobile Order &amp; Pay?</string>
+    <string name="maxNumberOfItems">You can order a maximum of 15 items.</string>
+
+    <string name="FAQ55">How long will my order take, when placed through Mobile Order &amp; Pay?</string>
+    <string name="howLongWillOrderTake">Before you place your order, an estimated prep time absed on the store chosen will be displayed, Once you have checked our and submitted your order, you will be given an estimated "ready by" time. If you hae chosen Schedule an Order, simply arrive at the scheduled time.\n\nWaiting time varies according to the store chosen and time of day. Once your order is ready for pick-up, you will receive a notification message via the Starbucks Singapore mobile app.</string>
+
+    <string name="FAQ56">Can I schedule the pick-up tme for my Mobile Order?</string>
+    <string name="schedulePickUpTime">This is only available when you pick thr Schedule an Order option.\n\nSimply pick a store, schedule your order at a pickup time of your choice. The earliest time slot you can schedule an order is 1 hour from the ordering time, with an interval of 15 minutes, up to 15 minutes prior to store closing</string>
+
+    <string name="FAQ57">How many days in advance can I schedule my Mobile Order?</string>
+    <string name="scheduleAdvance">You can schedule your order within a day. The earliest time slot you can schedule an order is 1 hour from the ordering time, ith an interval of 15 minutes prior to store closing.</string>
+
+    <string name="FAQ58">Can I change the pick-up time for my order after I have placed it?</string>
+    <string name="changePickUpTime">After placing an order through Mobile Order &amp; Pay, the order is immediately sent to the selected store and our baristas will begin the process of making the order. Hence, you will not be able to change the pick-up time of your order once it has been placed.</string>
+
+    <string name="FAQ59">Why didnn\'t I receive a notification message fro my Mobile Order?</string>
+    <string name="notifyMyMobileOrder">Please ensure notification are allowed under Settings in the Starbucks Singapore mobile app and that push notification have been enabled in your mobile devices</string>
+
+    <string name="FAQ60">Will I earn Stars with Mobile Order &amp; Pay?</string>
+    <string name="earnStarsMobilePay">Yes. You will earn Stars with all your orders made through Mobile Order &amp; Pay. You can keep track of your Stars and your membership level by logging into the Starbucks Singapore mobile app or via the Starbucks Rewards member portal</string>
 
 
 </resources>

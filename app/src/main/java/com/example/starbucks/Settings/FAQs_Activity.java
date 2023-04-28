@@ -3,6 +3,7 @@ package com.example.starbucks.Settings;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.example.starbucks.Adapter.FAQViewPagerAdapter;
@@ -31,6 +32,12 @@ public class FAQs_Activity extends AppCompatActivity {
 
     private void pageDirectories() {
 
+        btn_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
     private void initUI() {
