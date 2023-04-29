@@ -333,8 +333,46 @@
     <string name="FAQ70">How long does it takes for my order to be delivered?</string>
     <string name="orderDeliveryDuration">With Express shipping, you will receive your order the next working day if orders are placed before 3pm(Mon-Fri, excludes public holidays). Standard shipping will take around 3 working days. However, do note that we do not deliver on weekends and public holidays.</string>
 
+    <!--Starbucks Delivers-->
+    <string name="FAQ71">How do I place a Starbucks Delivers(in-app delivery) order?</string>
+    <string name="starbucksDeliveryOrder">You can download our Starbucks Singapore mobile app and place your order with the following steps:</string>
+    <string name="starbucksDeliveryOrder2">A minimum order of $15 excluding delivery fee, will be required for all delivery orders.</string>
 
+    <string name="FAQ72">Can I select my preferred store location for the delivery order?</string>
+    <string name="selectLocation">No, you will not be able to choose your preferred store location. The nearest available store will be assigned to your order after you have entered your delivery address.</string>
 
+    <string name="FAQ73">Can I schedule my delivery time on Starbucks Delivers?</string>
+    <string name="scheduleDeliveryTime">No. We are not able to schedule any order in advance. Orders will be processed as soon as we receive them.</string>
+
+    <string name="FAQ74">Do I need to be a Starbucks Rewards member to order via Starbucks Delivers?</string>
+    <string name="doINeedToBeAMember">yes. You will have to log in as a Starbucks Rewards member via the Starbucks Singapore mobile app. As a member, you can earn Stars when you order via Starbucks Delivers.</string>
+
+    <string name="FAQ75">What is the minimum order for delivery?</string>
+    <string name="minOrderDelivery">A minimum order of $15 applies. This excludes delivery fee.</string>
+
+    <string name="FAQ76">How much is the delivery fees?</string>
+    <string name="deliveryFee">A delivery fee of $4.50 applies for each order. Do note Stars issuance for Starbucks Rewards is not applicable on delivery fees.</string>
+
+    <string name="FAQ77">What payment mode(s) do you accept?</string>
+    <string name="paymentModesDelivery">We only accept payment through your registered Starbucks Card in your account via the Starbucks Singapore mobile app where you have place your order from.</string>
+
+    <string name="FAQ78">Can I use multiple registered Starbucks Card payment in a single order?</string>
+    <string name="multiplePaymentDelivery">Only one registered Starbucks Card can be used as payment mode for a single order. Do ensure that your card balance is sufficient fpr a more seamless checkout process.</string>
+
+    <string name="FAQ79">Does Starbucks Delivers accept cash-on-delivery?</string>
+    <string name="cashOnDelivery">No, we do not accept cash-on-delivery. Only Starbucks Card is accepted as payment mode for Starbucks Delivers Order.</string>
+
+    <string name="FAQ80">I have changed my mind, can I cancel my order?</string>
+    <string name="cancelledOrder">Does Starbucks Delivers accept cash-on-delivery?</string>
+
+    <string name="FAQ81">Can I amend my order after I have placed my order?</string>
+    <string name="amendOrders">Once the order has been placed, it will be processed instantly, and allow any changes or modifications to your order will not be allowed.</string>
+
+    <string name="FAQ82">Why is my order being cancelled?</string>
+    <string name="orderCancelled">Your order may be cancelled if one of the items ordered is out of stock or it takes longer than usual to find a driver. You will receive a notification via the app, refund will be automatically processed and returned to your Starbucks Card within 1 working day. If you would like to order again, please select other items and try again.</string>
+
+    <string name="FAQ83">Can I get a refund if my order is cancelled on Starbucks Delivers?</string>
+    <string name="refundIfOrderCancelled">The options to cancel an order will only appear when the system is unable to find a driver for your order. Once the order has been cancelled, refund will be automatically processed and returned to your Starbucks Card within 1 working day.</string>
 
 </resources>
 
