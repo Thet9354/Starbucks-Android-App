@@ -269,7 +269,8 @@
     <string name="FAQ50">How do I place an Order</string>
     <string name="howToPlaceOrder">To use Mobile Order and Pay, tap on the "Order" option located on the bottom of the screen. You can place a Mobile Order in three ways:</string>
     <string name="howToPlaceOrder2">Place an order and pay ahead using the app. This allows you to walk in without queueing a line and pick up your freshly made order at the pickup area, all within minutes.</string>
-    <string name="howToPlaceOrder3">Once you have found a table in-store, place an order, pay ahead on the app and we will notify you when your order is ready. That means you can skip the queue and pick up your freshly made order at the counter when it is ready.\n\nAll dine-in orders will be served in for-here serverware. Find out how to order ahead here.</string>
+    <string name="howToPlaceOrder3">Place an order, pay ahead using the app and schedule a pickup time that\'s most convenient for you. Then, swing by our store to pick up your freshly made order at the choseen time.</string>
+    <string name="howToPlaceOrder4">Once you have found a table in-store, place an order, pay ahead on the app and we will notify you when your order is ready. That means you can skip the queue and pick up your freshly made order at the counter when it is ready.\n\nAll dine-in orders will be served in for-here serverware. Find out how to order ahead here.</string>
 
     <string name="FAQ51">How do I pick up my order?</string>
     <string name="howToPickUpOrder">When your order is ready for pick-up, you wil receive a notification message sent via the Starbucks Singapore mobile app. Please proceed to the store you have selected within the estimated "ready by" time shown on the app or the "scheduled time" if you have chosen Schedule an Order.\n\nCollect your order at the pick-up area by presenting your order details to our baristas.</string>
@@ -292,14 +293,47 @@
     <string name="FAQ57">How many days in advance can I schedule my Mobile Order?</string>
     <string name="scheduleAdvance">You can schedule your order within a day. The earliest time slot you can schedule an order is 1 hour from the ordering time, ith an interval of 15 minutes prior to store closing.</string>
 
-    <string name="FAQ58">Can I change the pick-up time for my order after I have placed it?</string>
-    <string name="changePickUpTime">After placing an order through Mobile Order &amp; Pay, the order is immediately sent to the selected store and our baristas will begin the process of making the order. Hence, you will not be able to change the pick-up time of your order once it has been placed.</string>
+    <!--Starbucks online store-->
+    <string name="FAQ58">As a Starbucks Rewards member, do I earn Starts &amp; Rewards on all my purchases in Starbucks Online Store?</string>
+    <string name="earnRewardOnline">Yes. Stars &amp; Rewards will be awarded when you place your order logged in as a Starbucks Rewards member> Stars will be credited upon confirmation of order received and may take up to 24 hours to be reflected on yor account. Stars issuance does not apply to purchase of Starbucks Card eGift and Shipping Fee.</string>
 
-    <string name="FAQ59">Why didnn\'t I receive a notification message fro my Mobile Order?</string>
-    <string name="notifyMyMobileOrder">Please ensure notification are allowed under Settings in the Starbucks Singapore mobile app and that push notification have been enabled in your mobile devices</string>
+    <string name="FAQ59">I have just joined as a Starbucks Rewards member. Will I be able to earn Stars on my past purchases as a guest.</string>
+    <string name="earnStarsAsGuest">No, customers must log in and cart out as a member to receive Stars. If a customer carts out as a guest. he/she is unable to earn Stars on their purchases.</string>
 
-    <string name="FAQ60">Will I earn Stars with Mobile Order &amp; Pay?</string>
-    <string name="earnStarsMobilePay">Yes. You will earn Stars with all your orders made through Mobile Order &amp; Pay. You can keep track of your Stars and your membership level by logging into the Starbucks Singapore mobile app or via the Starbucks Rewards member portal</string>
+    <string name="FAQ60">Can I redeem my Starbucks rewards member. Will I be able to earn Stars on my past purchases as a guest?</string>
+    <string name="redeemRewardOnline">From time-to-time, we may run exclusive Starbucks Rewards promotions on Starbucks Online Store. For Gold members, you may also redeem 160 Stars for $20 off your online purchase. Please note that other Stars or Rewards benefits do not apply.</string>
+
+    <string name="FAQ61">I have placed my order as a Starbucks Rewards member but forgot to redeem my Stars, apply Rewards or promo code, what should I do?</string>
+    <string name="forgotApplyReward">Unfortunately, any promotions or rewards cannot be applied to an order once it is placed. We will not be able to reimburse you, but you can always save it for the next purchase with us.</string>
+
+    <string name="FAQ62">Do I receive a Free Drink voucher when I purchase a tumbler on Starbucks Online Store</string>
+    <string name="freeDrinksWhenBuyTumbler">Yes, you will receive a Free Drink voucher upon purchase of a regular-priced tumbler if you place your oder, logged in as a Starbucks Rewards member. Free Drink voucher will only be credited to your Starbucks Rewards account when the order is fulfilled and member clicks on "Order Received", or after 15 working days where we will automatically confirm the order if no response is received. This is only applicable on full-priced tumblers and does not apply on mugs, water bottles and marked down or discounted tumblers.</string>
+
+    <string name="FAQ63">How do I check my Order Status, Purchase History and Stars Earned?</string>
+    <string name="checkOrderStatus">You will be notified of your Order Status and Purchase History via your email. You may also log in to the Starbucks Rewards Member Portal and refer to the "History" tab for your Stars Earned. If you have the Starbucks Singapore app, you may view them under "Transaction History" too.</string>
+
+    <string name="FAQ64">I have not gotten any Stars after receiving my order, how long does iI have not gotten any Stars after rt take for the Stars to be credited?</string>
+    <string name="haveNotGottenStars">Upon receiving your order, please proceed to click on "Order Received" on the email sent when your order is delivered. Once we get your acknowledgement of your order received, your Stars will be automatically credited into your account within 24 hours.</string>
+
+    <string name="FAQ65">Do I need to be a member to shop at Starbucks Online Store</string>
+    <string name="memberToShopOnline">If you placed your order as a Starbucks Rewards member, you will be able to earn Stars and Rewards on the Starbucks Online Store. Beside that, having a Starbucks Rewards account will help to speed up the checkout process and allow you to do a guest checkout. However, you information and transaction record will not be stored if you opt for guest checkout.</string>
+
+    <string name="FAQ66">What are the payment modes available on Starbucks Online Store?</string>
+    <string name="paymentModesOnline">We accept VISA Credit/Debit card, Mastercard Credit/Debit card, Apple Pay, Google Pay and starbucks Card payment on the Starbucks Online store. If you are a Starbucks Rewards member, you may use your registered Starbucks Card to make payment for merchandise and Drinks &amp; Food eGift purchases. For Starbucks Card eGift purchases, you will need to pay using other payment methods.</string>
+
+    <string name="FAQ67">Can I use multiple payment modes on a single order?</string>
+    <string name="multiplePaymentModes">No, please select your preferred payment mode upon checkout. However, if your consists of a Starbucks Card eGift, you will only be able to ay using other payment mode, except your registered Starbucks Card.</string>
+
+    <string name="FAQ68">Is there a minimum or maximum spend per order on the Starbucks Online Store?</string>
+    <string name="minMaxOrder">There is no minimum spend required on the Starbucks Online Store. However, if you place your oder logged in as a Starbucks Rewards member, you are required to pay with your registered Starbucks Card which at any given time can only store a maximum balance of S$300.</string>
+
+    <string name="FAQ69">What are the delivery options and charges?</string>
+    <string name="deliveryOptionsCharges">There are two delivery options that you can choose from - Standard and Express. The charges for the delivery options are $4 and $6 respectively.</string>
+
+    <string name="FAQ70">How long does it takes for my order to be delivered?</string>
+    <string name="orderDeliveryDuration">With Express shipping, you will receive your order the next working day if orders are placed before 3pm(Mon-Fri, excludes public holidays). Standard shipping will take around 3 working days. However, do note that we do not deliver on weekends and public holidays.</string>
+
+
 
 
 </resources>
