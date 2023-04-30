@@ -374,5 +374,46 @@
     <string name="FAQ83">Can I get a refund if my order is cancelled on Starbucks Delivers?</string>
     <string name="refundIfOrderCancelled">The options to cancel an order will only appear when the system is unable to find a driver for your order. Once the order has been cancelled, refund will be automatically processed and returned to your Starbucks Card within 1 working day.</string>
 
+
+    <!--eGift-->
+    <string name="FAQ84">I received an eGift from a friend or have purchased it for myself. How do I redeem it?</string>
+    <string name="eGiftFromFriend">Before you start, download the Starbucks Singapore app and register as a Starbucks Reward member. Next, access your email inbox via your mobile phone. Refer to the email with redemption details that have been sent to your Inbox. Click on "Redeem Now" in the email via your Inbox. Click on "Redeem Now" in the email via your mobile phone. You will then be redirected to the Starbucks Singapore app to continue the redemption process. You eGift will be added into your register Starbucks Reward account and can be accessed on to the "Cards" tab or "Rewards" tab.</string>
+
+    <string name="FAQ85">How do I purchase a Starbucks Card eGift on Starbucks online Store?</string>
+    <string name="purchaseCardOnline">Simply go to "Starbucks Card eGift" section, browse the card designs, select and add an amount to load. Include the recipient\'s email address and your personalized message to send.</string>
+
+    <string name="FAQ86">Must I be a Starbucks Rewards member to purchase a Starbucks Card eGift?</string>
+    <string name="mustIBeAMember">No, you can choose to cart out as a Member or Guest. However, if you cart out s a Guest, we will not be able to retire any transaction data.</string>
+
+    <string name="FAQ87">As a Starbucks Rewards member, do I earn Stars when purchasing a Starbucks Card eGift?</string>
+    <string name="earnStarsWitheGift">No, you will not earn Stars on purchase of Starbucks Card eGift.</string>
+
+    <string name="FAQ88">What is the minimum or maximum amount that I can load into a Starbucks Card eGift?</string>
+    <string name="eGiftMinMaxLoad">You can load the following amount into each eGift Cards: $10, $20, $30, $50, $80, $100, $150, $200 or $300.</string>
+
+    <string name="FAQ89">How do I send the Starbucks card eGift to my friend?</string>
+    <string name="sendCardGiftToFriend">When you purchase an eGift for your friend, enter his/her email address and your personalized message upon checkout. Thereafter, an email with redemption details will be send to your friend, and he/she can redeem the eGift Card by adding it into their Starbucks rewards account. If your friend is not an existing member, he/she simply needs to register an account to redeem.</string>
+
+    <string name="FAQ90">What happens when my friend does not receive the Starbucks card eGift I\'ve sent?</string>
+    <string name="didNotReceiveGift">It can take up to 24 hours for the eGift Card to be sent to your friend\'s email address. They may wish to also check their Spam/Junk mailbox for the email. If it has been more than 24 hours, please contact our Customer Care Team here with the order number and we'll do our best to assist you.</string>
+
+    <string name="FAQ91">What happens if I input a wrong email address for my friend for the Starbucks Card eGift purchase?</string>
+    <string name="wrongEmail">You may contact our Customer Care Team here with the order number and we will do our best to assist you.</string>
+
+    <string name="FAQ92">What happens if my friend accidentally deleted the Starbucks Card eGift email notification before redeeming it?</string>
+    <string name="accidentallyDeletedEmail">Please inform your friend to check his/her Trash/Deleted mail box folder and retrieve the email. If he/she is unable to do so, please ask him/her to fill up the form here and we will do our best to assist you.</string>
+
+    <string name="FAQ93">Is there an expiry to the Starbucks card eGift?</string>
+    <string name="eGiftExpiry">Once the eGift card is purchased, it is valid for 90 days from the date of the eGift email notification sent to the recipient. After 90 days fro the date of purchase, the eGift Card will be considered expired, and no refund will be made or reimbursed to the sender nor recipient of the eGift Card. Extension of the validity period is not allowed. Once the eGift Card is redeemed, the usual 3 years validity period from the last transaction date applies for the Starbucks Card. </string>
+
+    <string name="FAQ94">Is there an expiry to the Starbucks card eGift?</string>
+    <string name="whenToUseGift">Starbucks Card eGift purchased in Singapore can be used at all Starbucks stores located within Singapore, except stores located at Changi Airport(excluding Jewel)</string>
+
+    <string name="FAQ95">Can I cancel or refund a Starbucks card eGift or Drinks &amp; Food eGift purchase?</string>
+    <string name="cancelRefundCard">No, Starbucks Card eGift or Drinks &amp; Food eGift purchase is strictly not eligible for any exchange, cancellation, or refund.</string>
+
+    <string name="FAQ96">What payment method can be used to purchase Starbucks card eGift?</string>
+    <string name="eGiftPaymentMethod">We accept VISA Credit/Debit card, Mastercard Credit/Debit card. Apple Pay and Google Pay. Please mote that payment via Starbucks Card cannot be used to purchase a Starbucks Card eGift.</string>
+
 </resources>
 

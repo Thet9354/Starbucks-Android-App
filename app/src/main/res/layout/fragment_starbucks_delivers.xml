@@ -277,7 +277,7 @@
 
             <!--Can I schedule my delivery time on Starbucks Delivers?-->
             <LinearLayout
-                android:id="@+id/ll_redeemRewardOnline"
+                android:id="@+id/ll_scheduleDeliveryTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
