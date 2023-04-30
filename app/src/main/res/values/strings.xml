@@ -415,5 +415,97 @@
     <string name="FAQ96">What payment method can be used to purchase Starbucks card eGift?</string>
     <string name="eGiftPaymentMethod">We accept VISA Credit/Debit card, Mastercard Credit/Debit card. Apple Pay and Google Pay. Please mote that payment via Starbucks Card cannot be used to purchase a Starbucks Card eGift.</string>
 
+
+    <!--Careers-->
+    <string name="FAQ97">How old do I have to be to work at Starbucks?</string>
+    <string name="howOldToWork">To work for Starbucks you must be at least 16 years old.</string>
+
+    <string name="FAQ98">How do I apply for a job in Starbucks?</string>
+    <string name="applyJob">Click ere to apply or email your resume to career@starbucks.com.sg</string>
+
+    <string name="FAQ99">How will I be notified whether I get the job?</string>
+    <string name="notifiedOfJob">Only shortlisted applicants will be notified within 7 working days.</string>
+
+    <!--In Our Stores-->
+    <string name="FAQ100">What are the sizes of the drinks served at our stores?</string>
+    <string name="drinkSizes">The drink sizes we currently offer are: \n\nShort - 8oz(236ml), Tall - 12oz(355ml), Grande - 16oz(437ml), Venti - 20oz(591ml)</string>
+
+    <string name="FAQ101">How can I make a comment about the service I received, or an experience I had, at a Starbucks store?</string>
+    <string name="serviceFeedback">We always welcome your feedback about our service and your in-store experience - whether you found it friendly and helpful, or if it fell short of your expectations. Please contact us with your comments and we will respond within 5 working days.</string>
+
+    <string name="FAQ102">How can I access Wi-Fi here at Starbucks?</string>
+    <string name="starbucksWifi">Wi-Fi service is available at participating stores under the MyRepublic hotspot. You are given 30 minutes of free Wi-Fi each time you login and you may login as may times as you wish.</string>
+
+    <string name="FAQ103">I am encountering issues wth the Wi-Fi, who should I contact?</string>
+    <string name="wifiIssues">We are sorry the internet is down. The wireless internet is managed by MyRepublic and you can contact their support team at +65 31520480</string>
+
+    <string name="FAQ104">How can I find a Starbucks store near me?</string>
+    <string name="storesNearMe">Heck out our Store Finder for our store locations</string>
+
+    <string name="FAQ105">Where can I find a Starbucks stores operating hours?</string>
+    <string name="storeOperatingHours">Check out our Store Finder for location and their operating hours.</string>
+
+    <string name="FAQ106">Do you give customers a discount if they bring their own tumbler/mug</string>
+    <string name="customerDiscount">Yes, we offer customers $0.50 off of the price of their handcrafted beverage if they use their own tumbler/mug. However, do note that it is not applicable in conjunction with any other promotions or privileges such as Starbucks rewards exclusive promotions, voucher or Stars redemption, discounted items, breakfast set, combo set, coffee refill etc.</string>
+
+    <string name="FAQ107">How does the coffee refill policy work?</string>
+    <string name="coffeeRefillPolicy">When you purchase a Brewed Coffee served in a mug and consume it in out stores, after you finish you can purchase a refill at $1.80. Once you leave the store, your visit has ended and any subsequent coffee refill thereafter would be considered a new purchase.</string>
+
+    <string name="FAQ108">Is it chargeable to add other milk options or dairy alternatives to my beverage?</string>
+    <string name="milkOptionCharges">Our milk options and dairy alternatives are chargeable if the requested amount is more than our sample cup (4oz) or if it is used to replace the original milk of the beverage such as our latte.</string>
+
+    <string name="FAQ109">How many calories are these in the different Starbucks food options?</string>
+    <string name="foodOptionCalories">You may find the nutritional information of our food options here.</string>
+
+    <string name="FAQ110">Can I purchase whole cake from Starbucks stores?</string>
+    <string name="wholeCake">No, cakes sold in our stores are only available in single slices. However, you can choose up to 5 different cakes in a dessert box at our stores, or pick from our recommendations on our delivery platforms. more information here.</string>
+
+    <string name="FAQ111">Do you do deliveries?</string>
+    <string name="deliveries">We will love to share our experience out of our stores. Selected stores deliver to limited locations with a minimum order of $30 if your office/home is within short walking distance (10 mins). Do contact Store Finder directly to make arrangements.</string>
+
+    <string name="FAQ112">Where can I find the furniture and design elements found in Starbucks Stores?</string>
+    <string name="furnitureDesignElement">Sorry, we are under legal obligation to not give out information about our vendors or manufacturers to the public. If you are interested in finding specific design elements, we suggest seeking out retailers and design centers that showcase new and innovative design work.</string>
+
+
+    <!--Others-->
+    <string name="FAQ113">When will the bag charge start?</string>
+    <string name="bagCharge">Starting from April 19th, 2023, Starbucks Singapore has implemented a 10 cents disposable bag charge upon customers request of a disposable bag per transaction.</string>
+
+    <string name="FAQ114">Why does Starbucks charge for paper bags?</string>
+    <string name="whyChargeBag">Starbucks goal is to become resource positive, giving back more than we take from the planet. It takes all of us to create a meaningful impact and we would like to invite our customers to join us in our journey towards a resource-positive future by adopting a more sustainable lifestyle and encouraging the habit of reducing the usage of disposable.</string>
+
+    <string name="FAQ115">Is the bag charge only applicable in store orders?</string>
+    <string name="bagChargeInStore">This applies to both dine-in and Mobile Order &amp; Pay orders(except Starbucks Delivers). </string>
+
+    <string name="FAQ116">What options do I have other tha purchasing a paper bag fro my order?</string>
+    <string name="bagAlternatives">You can opt for more sustainable options by bringing your own reusable bag. From 19 Apr to 25 Apr , we are giving away a free Small Reusable Bag with min $15 nett purchase or a free Large Reusable Bag with min $30 nett purchase. Limited to one redemption per in-store transaction(excluding Mobile Order &amp; Pay). While stocks last. Other terms and conditions apply.</string>
+
+    <string name="FAQ117">Who can I contact if I have additional questions about the bag charges</string>
+    <string name="bagChargesQuestions">Should you have any questions, please contact Starbucks Customer Service at \nwww.starbucks.com.sg.rewards/contact or call us at 6513 7500(Mondays to Fridays: 9am to 6pm, excluding Public Holidays).\n\nYou can also head on over here to learn more about our sustainability efforts.</string>
+
+    <string name="FAQ118">What is your exchange or return policy for Merchandise bought at Starbucks retail stores?</string>
+    <string name="exchangeReturnPolicy">We do not accept any exchange or return of items bought at the Starbucks retail store unless items are found to be defective or are non-conforming goods. Original purchase receipt is required to be presented.</string>
+
+    <string name="FAQ119">Is Starbucks Halal-certified?</string>
+    <string name="halalCertified">Starbucks Singapore is not a Halal-certified establishment, as we source from various suppliers. However, we do take measures to ensure that there is no park, lard or alcohol in any of our drinks and food offered in our stores.</string>
+
+    <string name="FAQ120">Why do my beverages not have whipped cream in delivery orders?</string>
+    <string name="deliveryWhippedCreamOption">To ensure the quality of our beverages, they do not have whipped cream in all delivery orders as they will melt during delivery.</string>
+
+    <string name="FAQ121">What is a FlavourLock bag?</string>
+    <string name="flavourLockBag">It\'s our special bag with one-way valve that allows the carbon dioxide released by freshly roasted coffee beans to escape a sealed coffee bag without allowing flavour-robbing oxygen to get in. All Starbucks coffee are sold in 250gm bags and are sealed in our airtightFlavourLock bags within two hours of roasting so that it stays fresh until you are ready to use</string>
+
+    <string name="FAQ122">Can I request for my coffee beans to be grinded at Starbucks stores?</string>
+    <string name="grindBeansInStore">Yes, our baristas can assist customers to grind coffee beans purchased from our stores upon request.</string>
+
+    <string name="FAQ123">What grind should I use?</string>
+    <string name="grindToUse">For the freshest tasting coffee, we will recommend starting with whole beans and grinding them fresh for each pot. Or, if you prefer, we ca grind the coffee fresh upon purchase to cater for the different brewing methods used at home or office.</string>
+
+    <string name="FAQ124">Can I request for coffee grounds from Starbucks stores?</string>
+    <string name="requestCoffeeGrounds">Starbucks offers used coffee grounds as part of our social &amp; environment initiative. You may contact the store before your visit to make an arrangement so that they can prepare it for you in advance.</string>
+
+    <string name="FAQ125">What is the best way to store coffee></string>
+    <string name="bestWayToStoreCoffee">We will recommend storing it in an airtight container in a cool, dark place and grinding it just before brewing. Once roasted, coffee begins to lose its flavour the longer it is exposed to air and moisture. Coffee is an unopened FlavourLock bag will stay fresh for several months - check the "best by" date print on the back of the bag.</string>
+
 </resources>
 

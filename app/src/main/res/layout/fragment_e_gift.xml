@@ -32,13 +32,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="How do I register my Starbucks Card?"
+                        android:text="@string/FAQ84"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_registerStarbucksCard"
+                        android:id="@+id/imgView_eGiftFromFriend"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -56,7 +56,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_registerStarbucksCardExplanation"
+                    android:id="@+id/ll_eGiftFromFriendDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -70,7 +70,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/registerStarbucksCard"
+                        android:text="@string/eGiftFromFriend"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -79,7 +79,7 @@
 
             <!--FAQ85-->
             <LinearLayout
-                android:id="@+id/ll_registerEmailAddress"
+                android:id="@+id/ll_purchaseCardOnline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -95,13 +95,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="How do I change my registered email address?"
+                        android:text="@string/FAQ85"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_registerEmailAddress"
+                        android:id="@+id/imgView_purchaseCardOnline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -119,7 +119,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_registerEmailAddressExplanation"
+                    android:id="@+id/ll_purchaseCardOnlineDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -133,101 +133,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="You can change your registered email address in a few\nsteps:"
+                        android:text="@string/purchaseCardOnline"
                         android:textColor="@color/black" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:layout_marginTop="5dp"
-                            android:src="@drawable/circle_black_ic" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:text="Sign-in to your account at\nwww.starbcuks.com.sg/rewards/Login"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:layout_marginTop="5dp"
-                            android:src="@drawable/circle_black_ic" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:text="Click on 'Profile' "
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:layout_marginTop="5dp"
-                            android:src="@drawable/circle_black_ic" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:text="Scroll down to 'Change Email'"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:layout_marginTop="5dp"
-                            android:src="@drawable/circle_black_ic" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:text="Enter new email address"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginTop="10dp"
-                        android:text="@string/registerEmailAddress"
-                        android:textColor="@color/black" />
-
 
                 </LinearLayout>
 
@@ -235,7 +142,7 @@
 
             <!--FAQ86-->
             <LinearLayout
-                android:id="@+id/ll_changePassword"
+                android:id="@+id/ll_mustIBeAMember"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -251,13 +158,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="How do I change my password on my account?"
+                        android:text="@string/FAQ86"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_changePassword"
+                        android:id="@+id/imgView_mustIBeAMember"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -275,7 +182,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_changePasswordDetail"
+                    android:id="@+id/ll_mustIBeAMemberDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -289,92 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/changeAccPassword1"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Your password must:"
-                        android:textColor="@color/black" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:orientation="vertical">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="10dp"
-                                android:layout_height="10dp"
-                                android:layout_marginTop="5dp"
-                                android:src="@drawable/circle_black_ic" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="5dp"
-                                android:text="@string/passwordCondition1"
-                                android:textColor="@color/black" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="10dp"
-                                android:layout_height="10dp"
-                                android:layout_marginTop="5dp"
-                                android:src="@drawable/circle_black_ic" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="5dp"
-                                android:text="@string/passwordCondition2"
-                                android:textColor="@color/black" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="10dp"
-                                android:layout_height="10dp"
-                                android:layout_marginTop="5dp"
-                                android:src="@drawable/circle_black_ic" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="5dp"
-                                android:text="@string/passwordCondition3"
-                                android:textColor="@color/black" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20sp"
-                        android:text="@string/changeAccPassword2"
+                        android:text="@string/mustIBeAMember"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -383,7 +205,7 @@
 
             <!--FAQ87-->
             <LinearLayout
-                android:id="@+id/ll_wrongBDMonth"
+                android:id="@+id/ll_earnStarsWitheGift"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -399,13 +221,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ14"
+                        android:text="@string/FAQ87"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_wrongBDMonth"
+                        android:id="@+id/imgView_earnStarsWitheGift"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -423,7 +245,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_wrongBDMonthDetail"
+                    android:id="@+id/ll_earnStarsWitheGiftDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -437,7 +259,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/wrongBDMonth"
+                        android:text="@string/earnStarsWitheGift"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -446,7 +268,7 @@
 
             <!--FAQ88-->
             <LinearLayout
-                android:id="@+id/ll_starbucksCardPrivacy"
+                android:id="@+id/ll_eGiftMinMaxLoad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -462,13 +284,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ15"
+                        android:text="@string/FAQ88"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_starbucksCardPrivacy"
+                        android:id="@+id/imgView_eGiftMinMaxLoad"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -486,7 +308,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_cardPrivacyDetails"
+                    android:id="@+id/ll_eGiftMinMaxLoadDetails"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -500,7 +322,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/cardPrivacy"
+                        android:text="@string/eGiftMinMaxLoad"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -509,7 +331,7 @@
 
             <!--FAQ89-->
             <LinearLayout
-                android:id="@+id/ll_reloadStarbucksCard"
+                android:id="@+id/ll_sendCardGiftToFriend"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -525,13 +347,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ16"
+                        android:text="@string/FAQ89"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_reloadStarbucksCard"
+                        android:id="@+id/imgView_sendCardGiftToFriend"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -549,7 +371,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_reloadCardDetail"
+                    android:id="@+id/ll_sendCardGiftToFriendDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -563,7 +385,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/ReloadStarbucksCard"
+                        android:text="@string/sendCardGiftToFriend"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -572,7 +394,7 @@
 
             <!--FAQ90-->
             <LinearLayout
-                android:id="@+id/ll_starbucksCardReloadItself"
+                android:id="@+id/ll_didNotReceiveGift"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -588,13 +410,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ17"
+                        android:text="@string/FAQ90"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_starbucksCardReloadItself"
+                        android:id="@+id/imgView_didNotReceiveGift"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -612,7 +434,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_cardReloadItselfDetail"
+                    android:id="@+id/ll_didNotReceiveGiftDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -626,7 +448,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/StarbucksCardReloadCard"
+                        android:text="@string/didNotReceiveGift"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -635,7 +457,7 @@
 
             <!--FAQ91-->
             <LinearLayout
-                android:id="@+id/ll_minimumActAmount"
+                android:id="@+id/ll_wrongEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -651,13 +473,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ19"
+                        android:text="@string/FAQ91"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_minimumActAmount"
+                        android:id="@+id/imgView_wrongEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -675,7 +497,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_minActAmountDetail"
+                    android:id="@+id/ll_wrongEmailDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -689,7 +511,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/MinimumActivationAmount"
+                        android:text="@string/wrongEmail"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -698,7 +520,7 @@
 
             <!--FAQ92-->
             <LinearLayout
-                android:id="@+id/ll_maxActAmount"
+                android:id="@+id/ll_accidentallyDeletedEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -714,13 +536,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ19"
+                        android:text="@string/FAQ92"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_maxActAmount"
+                        android:id="@+id/imgView_accidentallyDeletedEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -738,7 +560,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_maxActAmountDetail"
+                    android:id="@+id/ll_accidentallyDeletedEmailDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -752,7 +574,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/MaxActAmount"
+                        android:text="@string/accidentallyDeletedEmail"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -761,7 +583,7 @@
 
             <!--FAQ93-->
             <LinearLayout
-                android:id="@+id/ll_whereToUseCard"
+                android:id="@+id/ll_eGiftExpiry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -777,13 +599,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ20"
+                        android:text="@string/FAQ93"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_whereToUseCard"
+                        android:id="@+id/imgView_eGiftExpiry"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -801,7 +623,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_whereToUseCardDetail"
+                    android:id="@+id/ll_eGiftExpiryDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -815,7 +637,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/WhereToUseCard"
+                        android:text="@string/eGiftExpiry"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -824,7 +646,7 @@
 
             <!--FAQ94-->
             <LinearLayout
-                android:id="@+id/ll_viewAndManageCard"
+                android:id="@+id/ll_whenToUseGift"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -840,13 +662,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ21"
+                        android:text="@string/FAQ94"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_viewAndManageCard"
+                        android:id="@+id/imgView_whenToUseGift"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -864,7 +686,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_viewAndManageCardDetail"
+                    android:id="@+id/ll_whenToUseGiftDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -878,7 +700,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/viewAndManageCard"
+                        android:text="@string/whenToUseGift"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -887,7 +709,7 @@
 
             <!--FAQ95-->
             <LinearLayout
-                android:id="@+id/ll_cardReceipt"
+                android:id="@+id/ll_cancelRefundCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -903,13 +725,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ22"
+                        android:text="@string/FAQ56"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_cardReceipt"
+                        android:id="@+id/imgView_cancelRefundCard"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -927,7 +749,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_cardReceiptDetail"
+                    android:id="@+id/ll_cancelRefundCardDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -941,7 +763,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/cardReceipt"
+                        android:text="@string/cancelRefundCard"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -950,7 +772,7 @@
 
             <!--FAQ96-->
             <LinearLayout
-                android:id="@+id/ll_cardServiceFee"
+                android:id="@+id/ll_eGiftPaymentMethod"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -966,13 +788,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ23"
+                        android:text="@string/FAQ96"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imgView_cardServiceFee"
+                        android:id="@+id/imgView_eGiftPaymentMethod"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
@@ -990,7 +812,7 @@
                     android:background="@color/light_gray" />
 
                 <LinearLayout
-                    android:id="@+id/ll_cardServiceFeeDetail"
+                    android:id="@+id/ll_eGiftPaymentMethodDetail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -1004,7 +826,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:gravity="start"
-                        android:text="@string/cardServiceFee"
+                        android:text="@string/eGiftPaymentMethod"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
