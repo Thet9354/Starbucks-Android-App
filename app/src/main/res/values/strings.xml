@@ -394,8 +394,8 @@
     <string name="FAQ89">How do I send the Starbucks card eGift to my friend?</string>
     <string name="sendCardGiftToFriend">When you purchase an eGift for your friend, enter his/her email address and your personalized message upon checkout. Thereafter, an email with redemption details will be send to your friend, and he/she can redeem the eGift Card by adding it into their Starbucks rewards account. If your friend is not an existing member, he/she simply needs to register an account to redeem.</string>
 
-    <string name="FAQ90">What happens when my friend does not receive the Starbucks card eGift I\'ve sent?</string>
-    <string name="didNotReceiveGift">It can take up to 24 hours for the eGift Card to be sent to your friend\'s email address. They may wish to also check their Spam/Junk mailbox for the email. If it has been more than 24 hours, please contact our Customer Care Team here with the order number and we'll do our best to assist you.</string>
+    <string name="FAQ90">What happens when my friend does not receive the Starbucks card eGift I have sent?</string>
+    <string name="didNotReceiveGift">It can take up to 24 hours for the eGift Card to be sent to your friend\'s email address. They may wish to also check their Spam/Junk mailbox for the email. If it has been more than 24 hours, please contact our Customer Care Team here with the order number and we will do our best to assist you.</string>
 
     <string name="FAQ91">What happens if I input a wrong email address for my friend for the Starbucks Card eGift purchase?</string>
     <string name="wrongEmail">You may contact our Customer Care Team here with the order number and we will do our best to assist you.</string>
@@ -440,7 +440,7 @@
     <string name="wifiIssues">We are sorry the internet is down. The wireless internet is managed by MyRepublic and you can contact their support team at +65 31520480</string>
 
     <string name="FAQ104">How can I find a Starbucks store near me?</string>
-    <string name="storesNearMe">Heck out our Store Finder for our store locations</string>
+    <string name="storesNearMe">Check out our Store Finder for our store locations</string>
 
     <string name="FAQ105">Where can I find a Starbucks stores operating hours?</string>
     <string name="storeOperatingHours">Check out our Store Finder for location and their operating hours.</string>
@@ -504,7 +504,7 @@
     <string name="FAQ124">Can I request for coffee grounds from Starbucks stores?</string>
     <string name="requestCoffeeGrounds">Starbucks offers used coffee grounds as part of our social &amp; environment initiative. You may contact the store before your visit to make an arrangement so that they can prepare it for you in advance.</string>
 
-    <string name="FAQ125">What is the best way to store coffee></string>
+    <string name="FAQ125">What is the best way to store coffee?</string>
     <string name="bestWayToStoreCoffee">We will recommend storing it in an airtight container in a cool, dark place and grinding it just before brewing. Once roasted, coffee begins to lose its flavour the longer it is exposed to air and moisture. Coffee is an unopened FlavourLock bag will stay fresh for several months - check the "best by" date print on the back of the bag.</string>
 
 </resources>

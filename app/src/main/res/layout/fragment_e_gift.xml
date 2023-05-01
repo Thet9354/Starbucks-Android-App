@@ -28,7 +28,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
@@ -42,7 +42,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
-                        android:layout_marginStart="70dp"
+                        android:layout_marginStart="10dp"
                         android:src="@drawable/arrow_down" />
 
                 </LinearLayout>
@@ -91,7 +91,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
@@ -105,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
-                        android:layout_marginStart="5dp"
+                        android:layout_marginStart="10dp"
                         android:src="@drawable/arrow_down" />
 
                 </LinearLayout>
@@ -154,7 +154,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
@@ -168,7 +168,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|end"
-                        android:layout_marginStart="4dp"
+                        android:layout_marginStart="10dp"
                         android:src="@drawable/arrow_down" />
 
                 </LinearLayout>
@@ -725,7 +725,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="20dp"
-                        android:text="@string/FAQ56"
+                        android:text="@string/FAQ95"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
