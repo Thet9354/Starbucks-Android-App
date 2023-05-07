@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topic"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/btn_close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/close_ic"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_subTopics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp">
+
+            <RadioButton
+                android:id="@+id/rb_subTopic1"
+                style="@style/RadioButtonNoCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merchandise" />
+
+            <RadioButton
+                android:id="@+id/rb_subTopic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starbucks Card eGift"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drinks &amp; Food eGift"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stars and Rewards Enquiry"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Enquiry"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Enquiry"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Status"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refund Status"
+                style="@style/RadioButtonNoCircle"/>
+
+            <RadioButton
+                android:id="@+id/rb_subTopic9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                style="@style/RadioButtonNoCircle"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

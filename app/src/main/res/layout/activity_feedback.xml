@@ -1,9 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Settings.Feedback_Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/back_ic_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reward"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/btn_back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#808080" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textColor="@color/black"
+                    android:textStyle="italic|bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/stars"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share your thoughts!"
+                android:textColor="@color/green"
+                android:layout_marginStart="20sp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_marginTop="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We welcome all questions, comments and feedback - it helps us make your experience at Starbucks the best it can be."
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please select the category below that best fits your comment or question, then e-mail us."
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/editTxt_topic"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:backgroundTint="@null"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Topic"
+                android:textColor="#4169E1"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_subTopic"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Sub Topic"
+                android:textColor="#4169E1"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="First Name"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Last Name"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Email Address"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_mobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Mobile No"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:text="Starbucks Card Number"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/editTxt_message"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="20dp"
+                android:textCursorDrawable="@null"
+                android:cursorVisible="false"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:drawableEnd="@drawable/arrow_down"
+                android:singleLine="false"
+                android:text="Message"
+                android:textSize="13sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Submit"
+                android:layout_alignParentStart="true"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone and postal contact"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/green"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you would like to contact Starbucks by phone or postal mail, please direct your questions and comments to:"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11 North Buona Vista Drive\n#03-08 The Metropolis Tower 2\nSingapore 138589"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mondays to Fridays: 9am to 6pm\nExcluding Public Holidays"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel: (65) 6513 7500\nFax: (65) 6513 7550"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
