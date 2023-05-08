@@ -141,8 +141,8 @@
                 android:textColor="@color/light_gray"
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
                 android:text="First Name"
                 android:textSize="13sp" />
 
@@ -158,7 +158,7 @@
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
+                android:inputType="textPersonName"
                 android:text="Last Name"
                 android:textSize="13sp" />
 
@@ -174,8 +174,8 @@
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
                 android:text="Email Address"
+                android:inputType="textEmailAddress"
                 android:textSize="13sp" />
 
             <EditText
@@ -190,8 +190,9 @@
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
                 android:text="Mobile No"
+                android:digits="1234567890"
+                android:inputType="number"
                 android:textSize="13sp" />
 
             <EditText
@@ -206,8 +207,9 @@
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
                 android:text="Starbucks Card Number"
+                android:digits="1234567890"
+                android:inputType="number"
                 android:textSize="13sp" />
 
             <EditText
@@ -222,7 +224,7 @@
                 android:backgroundTint="@null"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
-                android:drawableEnd="@drawable/arrow_down"
+
                 android:singleLine="false"
                 android:text="Message"
                 android:textSize="13sp" />
@@ -239,6 +241,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_centerVertical="true"
                 android:textColor="@color/white"
+                android:inputType="textMultiLine"
                 android:background="@drawable/button_bg"
                 android:layout_marginTop="15dp"/>
 

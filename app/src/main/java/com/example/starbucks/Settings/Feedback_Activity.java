@@ -15,6 +15,9 @@ import android.widget.RadioGroup;
 
 import com.example.starbucks.R;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Feedback_Activity extends AppCompatActivity {
 
     private ImageView btn_back;
@@ -207,16 +210,20 @@ public class Feedback_Activity extends AppCompatActivity {
                         break;
 
                     case "Corporate Sales":
-                        rb_subTopic1.setText("Merchandise");
-                        rb_subTopic2.setText("Starbucks Card eGift");
-                        rb_subTopic3.setText("Drinks & Food eGift");
-                        rb_subTopic4.setText("Stars and Rewards Enquiry");
-                        rb_subTopic5.setText("Order Enquiry");
-                        rb_subTopic6.setText("Payment Enquiry");
-                        rb_subTopic7.setText("Delivery Status");
-                        rb_subTopic8.setText("Refund Status");
-                        rb_subTopic9.setText("Others");
+                        editTxt_subTopic.setVisibility(View.GONE);
                         break;
+
+                    case "General Enquiry":
+                        rb_subTopic8.setVisibility(View.GONE);
+                        rb_subTopic9.setVisibility(View.GONE);
+
+                        rb_subTopic1.setText("Corporate social responsibility");
+                        rb_subTopic2.setText("General Enquiry");
+                        rb_subTopic3.setText("Jobs at Starbucks");
+                        rb_subTopic4.setText("Media Enquiry");
+                        rb_subTopic5.setText("Merchandise");
+                        rb_subTopic6.setText("Sponsorship request");
+                        rb_subTopic7.setText("Others");
                 }
 
                 rg_subTopics.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -224,29 +231,32 @@ public class Feedback_Activity extends AppCompatActivity {
                     public void onCheckedChanged(RadioGroup group, int checkedId) {
                         switch (checkedId)
                         {
-                            case R.id.rb_inOurStores:
-                                editTxt_topic.setText(rb_inOurStores.getText().toString());
+                            case R.id.rb_subTopic1:
+                                editTxt_topic.setText(rb_subTopic1.getText().toString());
                                 break;
-                            case R.id.rb_mobileOrderPay:
-                                editTxt_topic.setText(rb_mobileOrderPay.getText().toString());
+                            case R.id.rb_subTopic2:
+                                editTxt_topic.setText(rb_subTopic2.getText().toString());
                                 break;
-                            case R.id.rb_deliveryOrder:
-                                editTxt_topic.setText(rb_deliveryOrder.getText().toString());
+                            case R.id.rb_subTopic3:
+                                editTxt_topic.setText(rb_subTopic3.getText().toString());
                                 break;
-                            case R.id.rb_starbucksCard:
-                                editTxt_topic.setText(rb_starbucksCard.getText().toString());
+                            case R.id.rb_subTopic4:
+                                editTxt_topic.setText(rb_subTopic4.getText().toString());
                                 break;
-                            case R.id.rb_starbucksReward:
-                                editTxt_topic.setText(rb_starbucksReward.getText().toString());
+                            case R.id.rb_subTopic5:
+                                editTxt_topic.setText(rb_subTopic5.getText().toString());
                                 break;
-                            case R.id.rb_onlineStore:
-                                editTxt_topic.setText(rb_onlineStore.getText().toString());
+                            case R.id.rb_subTopic6:
+                                editTxt_topic.setText(rb_subTopic6.getText().toString());
                                 break;
-                            case R.id.rb_corporateSales:
-                                editTxt_topic.setText(rb_corporateSales.getText().toString());
+                            case R.id.rb_subTopic7:
+                                editTxt_topic.setText(rb_subTopic7.getText().toString());
                                 break;
-                            case R.id.rb_generalEnquiry:
-                                editTxt_topic.setText(rb_generalEnquiry.getText().toString());
+                            case R.id.rb_subTopic8:
+                                editTxt_topic.setText(rb_subTopic8.getText().toString());
+                                break;
+                            case R.id.rb_subTopic9:
+                                editTxt_topic.setText(rb_subTopic9.getText().toString());
                                 break;
                         }
                         dialog.cancel();
@@ -307,6 +317,14 @@ public class Feedback_Activity extends AppCompatActivity {
     }
 
     private boolean starbucksCardValidation() {
+
+        if (starbucksCardNumber.isEmpty())
+        {
+            editTxt_cardNumber.setError("Field cannot be empty in order to proceed");
+            return false;
+        }
+        else
+            return true;
 
     }
 
